@@ -63,5 +63,5 @@ def main():
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'demo':
-        sys.argv[1:] = ('random.seman -m 600000 -l 12 -i 3 -g2:500000,3:500000').split()
+        sys.argv[1:] = ('random.seman -m 600000 -l 12 -i 3 -g2:50000,3:50000').split()
     main()

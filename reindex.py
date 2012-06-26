@@ -25,6 +25,8 @@ if __name__ == "__main__":
         worker.open(os.path.join(_d, 'indices/authors'),
                     reindex=os.path.join(_d, 'indices/names.seman'))
     elif what == 'random':
+        os.system('%s indices/generate_random_data.py demo' % sys.executable)
+        os.rename('random.seman', 'indices/random.seman')
         worker.open(os.path.join(_d, 'indices/random'),
                     reindex=os.path.join(_d, 'indices/random.seman'))
     elif what == 'all':
