@@ -89,7 +89,7 @@
 	</target>
 
 	<target name="compile" depends="init" description="Compiles all java classes from /src/java">
-		<javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="${classpath}"/>
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath"/>
 	</target>
 
 
