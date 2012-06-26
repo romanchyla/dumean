@@ -70,7 +70,14 @@ def site(path):
 _applications = {}
 import dumean
 
-@app.route('/<app_name>.py', methods=["GET","POST"])
+@app.route('/suggest/<name>')
+def suggest_ui(name):
+    """Send your auto-suggest file."""
+    file_dot_html = 'au-' + name + '.html'
+    return render_template(file_dot_html), 200
+
+
+@app.route('/suggest/<app_name>.py', methods=["GET","POST"])
 def suggest(app_name):
     worker = None
     if app_name not in _applications:
@@ -94,7 +101,7 @@ def suggest(app_name):
     start = time.time()
     if 'term' in query and len(query['term']):
         if 'data' in query: # 2nd level lookup
-            data = worker.get_similar(query['term'], data=query.getlist('data'))
+            data = worker.get_similar(query['term'], data=query['data'])
         else:
             data = worker.get_suggestions(query['term'])
     else:

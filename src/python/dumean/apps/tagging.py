@@ -2,7 +2,9 @@
 
 import sys
 import os
-_d = os.path.dirname(__file__)
+import dumean
+
+_d = os.path.abspath(os.path.join(os.path.dirname(dumean.__file__), '../../..'))
 if _d not in sys.path:
     sys.path.append(_d)
 
@@ -36,7 +38,31 @@ class TaggingWhisper(Whisperer):
 
     def format_value(self, entry):
         return entry.pop()
+    
+    def get_similar(self, word, data):
+        if not data:
+            try:
+                data = self.whisperer.findSimilarByWord(word,
+                                                    max=self.max_similar+10)
+                data = data[0]['value']
+            except:
+                # error, the word was not found
+                data = self.get_suggestions(word)
+                data.append('<2nd lookup, %s not found>' % word)
+                return data
+        semes = data.split(' ')
+        
+        data = self.whisperer.getSimilarBySem(semes, 10, True)
+            
+        if len(data) < 2:
+            return []
+        records = []
+        for info in data:
+            if info['key'] != word:
+                records.append(self.prepare_entry([info]))
+        return records[0:self.max_similar]
 
 #test(INDEX, 'scalar', [('particle', None)], cls=TaggingWhisper)
+#test(INDEX, 'scalar', [('boson', '0012v _rel194 _rel195')], cls=TaggingWhisper)
 
-application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, TaggingWhisper)
+get_worker, application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, TaggingWhisper)

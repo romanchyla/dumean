@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en" />
+ 
+    <style type="text/css">
+        .menu_head {
+            padding: 5px 10px;
+            cursor: pointer;
+            position: relative;
+            margin:1px;
+               font-weight:bold;
+               background: #eef4d3 url(left.png) center right no-repeat;
+        }
+        .menu_body {
+            display:none;
+        }
+        .menu_body a {
+          display:block;
+          color:#006699;
+          background-color:#EFEFEF;
+          padding-left:10px;
+          font-weight:bold;
+          text-decoration:none;
+        }
+        .menu_body a:hover {
+          color: #000000;
+          text-decoration:underline;
+        }
+    </style>
+    <script type="text/javascript" src="/static/jqueryui/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.autocomplete.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.accordion.js"></script
+    <link rel="stylesheet" type="text/css" href="/static/jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css">  
+
+    
+
+    <script type="text/javascript">
+      $(function() {
+        // there was no better way to get into the _create function
+        // better than redefining the prototype...
+        $.ui.menu.prototype._create = function() { 
+            var self = this;
+            this.element
+                .addClass("ui-menu ui-widget ui-widget-content ui-corner-all")
+                .attr({
+                    role: "listbox",
+                    "aria-activedescendant": "ui-active-menuitem"
+                })
+                .click(function( event ) {
+                    if ( !$( event.target ).closest( ".ui-menu-item a" ).length ) {
+                        return;
+                    }
+                    // temporary
+                    event.preventDefault();
+                    self.select( event );
+                });
+            this.refresh();
+        };       
+        
+        function split(val) {
+          return val.split(/,\s*/);
+        }
+        function extractLast(term) {
+          return split(term).pop();
+        }
+        function myResponse(content) {
+            return '<b>' + content.value + '</b>';
+        }
+        function renderMenu( ul, items ) {
+            var self = this;
+            $.each( items, function( index, item ) {
+            self._renderItem( ul, item );
+            });
+            
+            
+        }
+        function renderItem( ul, item) {
+            var whisperer = $('<div class="menu_body">something</div>');
+            var item = $( "<li></li>" )
+                .data( "item.autocomplete", item )
+                .append( "<a>" + item.label + "</a>")
+                .append( "<a>" + "more..." + "</a>")
+                .appendTo( ul );
+            item.append(whisperer);
+            item.click(function() {
+                $(this).css({backgroundImage:"url(down.png)"})
+                       .next("div.menu_body")
+                       .slideToggle(300)
+                       .siblings("div.menu_body")
+                       .slideUp("slow");
+                $(this).siblings().css({backgroundImage:"url(left.png)"});
+            });
+            return item;
+        }
+        function close(event, ui) {
+            clearTimeout( this.closing );
+            if ( this.menu.element.is(":visible") ) {
+                this._trigger( "close", event );
+                this.menu.element.hide();
+                this.menu.deactivate();
+            } 
+        }
+        function selected(event, ui) {
+        
+            var self = autoc.data("autocomplete");
+            var doc = self.element [ 0 ].ownerDocument;
+            var item = ui.item.data( "item.autocomplete" );
+            if ( false !== self._trigger( "select", event, { item: item } ) ) {
+                self.element.val( item.value );
+            }
+            self.close( event );
+            // only trigger when focus was lost (click on menu)
+            var previous = self.previous;
+            if ( self.element[0] !== doc.activeElement ) {
+                self.element.focus();
+                self.previous = previous;
+            }
+            self.selectedItem = item;
+        }
+        
+        var autoc = $(".simplesearchfield").autocomplete({
+          source: function(request, response) {
+            $.getJSON("/suggest/test.py", {
+              term: extractLast(request.term)
+            }, response);
+          },
+          search: function() {
+            // custom minLength
+            var term = extractLast(this.value);
+            if (term.length < 0) {
+              return false;
+            }
+          },
+          focus: function() {
+            // prevent value inserted on focus
+            return false;
+          },
+          select: function(event, ui) {
+            var terms = split( this.value );
+            // remove the current input
+            terms.pop();
+            // add the selected item
+            terms.push( ui.item.value );
+            // add placeholder to get the comma-and-space at the end
+            terms.push("");
+            this.value = terms.join(", ");
+            return false;
+          },
+        });
+        
+        
+        //autoc.bind('autocompleteclose', closex);
+        var au = autoc.data("autocomplete");
+        au.menu.options['selected'] = selected;
+        
+        autoc.data("autocomplete").close = close;
+        autoc.data("autocomplete")._renderMenu = renderMenu;
+        autoc.data("autocomplete")._renderItem = renderItem;
+        $("#accordion").accordion();
+
+        $("input#autocomplete").autocomplete({
+                    source: ["TDECK", "HkDict", "NFO", "0V", "PP", "IDI", "CSRV", "CSR", "I", "I12", "I18", "I2B", "I2BP", "I2P", "I2PP", "I2HSP", "I2SKIM", "I2SKIMV", "I2SKIMP", "LSL", "IWF", "DWF", "HA", "DWIN", "DDOOR", "A2Z", "NIG", "IGSB", "IGSBP", "GSCLRNC", "DG", "IG", "LGS", "I34", "I38", "I3B", "I3G", "I3GT", "I4G", "I48GR", "I7SPA", "I8SPA", "IMUD", "IA", "IAC", "IACAN", "IACL", "IAD", "IAIR", "IAPPROV", "IARO", "IAP", "IAT", "IB", "IBC", "IBL", "IBOB", "IBR", "IBRP", "IBPRS", "IBUB", "IAS", "ISBS", "IBS", "IBB", "IBBS", "IHC", "IFC", "IDS", "IVBS", "IOBTB", "ICH", "ICI", "ICN", "ICS", "ICV", "ID", "TBX", "IDCF", "IDF6P", "IDJ", "IDF", "ISW", "IESW", "IDPS", "I18ISSW", "IDM", "IDT", "IE", "IHTR", "IEFP", "IEB", "IEBL", "IEBR", "IPLS", "IPS"],
+                    minLength: 1,
+                    select: function(event, ui) {
+                        $("#accordion").accordion( "activate", ( "h3#" + ui.item.label ) );
+                    }
+                });
+                
+        
+      });
+      
+      
+      
+      </script>
+
+
+
+</head>
+<body class="home search" lang="en">
+
+{% include "header.html" %}
+
+<form>
+    <input type="text" name="p" size="40" value="" id="autocomplete"/>
+</form>
+
+</body>
+</html>

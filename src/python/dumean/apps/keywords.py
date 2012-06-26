@@ -2,7 +2,8 @@
 
 import sys
 import os
-_d = os.path.dirname(__file__)
+import dumean
+_d = os.path.abspath(os.path.join(os.path.dirname(dumean.__file__), '../../..'))
 if _d not in sys.path:
     sys.path.append(_d)
 
@@ -25,4 +26,4 @@ class KeywordWhisper(Whisperer):
 
 #test(INDEX, 'scalarz', [('particle', None)])
 
-application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, KeywordWhisper)
+get_worker, application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, KeywordWhisper)

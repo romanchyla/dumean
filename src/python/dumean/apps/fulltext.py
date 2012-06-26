@@ -2,7 +2,9 @@
 
 import sys
 import os
-_d = os.path.dirname(__file__)
+import dumean
+
+_d = os.path.abspath(os.path.join(os.path.dirname(dumean.__file__), '../../..'))
 if _d not in sys.path:
     sys.path.append(_d)
 
@@ -25,4 +27,4 @@ class FulltextWhisper(Whisperer):
 
 #test(INDEX, 'schoolz', [('school', None)])
 
-application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, FulltextWhisper)
+get_worker, application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, FulltextWhisper)

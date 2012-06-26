@@ -7,6 +7,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.LockObtainFailedException;
 import org.apache.lucene.store.SimpleFSDirectory;
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.PerFieldAnalyzerWrapper;
 import org.apache.lucene.analysis.WhitespaceAnalyzer; 
 import org.apache.lucene.analysis.KeywordAnalyzer; //spell check works very well, but no searching works then
 import org.apache.lucene.document.Document;
@@ -149,7 +150,10 @@ public class IndexDictionary {
 	private static IndexWriter getWriter(File indexDir)
 			throws CorruptIndexException, LockObtainFailedException,
 			IOException {
-		Analyzer analyzer = new KeywordAnalyzer(); //WhitespaceAnalyzer();
+		
+		PerFieldAnalyzerWrapper analyzer = new PerFieldAnalyzerWrapper(new KeywordAnalyzer()); 
+		analyzer.addAnalyzer("value", new WhitespaceAnalyzer());
+		
 		Directory dir = new SimpleFSDirectory(indexDir);
 		IndexWriter writer = new IndexWriter(dir, analyzer,
 				true, IndexWriter.MaxFieldLength.LIMITED);

@@ -2,10 +2,10 @@
 
 import sys
 import os
-_d = os.path.dirname(__file__)
+import dumean
+_d = os.path.abspath(os.path.join(os.path.dirname(dumean.__file__), '../../..'))
 if _d not in sys.path:
     sys.path.append(_d)
-
 
 
 
@@ -57,7 +57,7 @@ class AuthorWhisper(Whisperer):
                 'data':self.format_data(data)}
 
 
-test(INDEX, 'Ellis', [('Ellis', ['Ellis J', 'Ellis J.R'])],
-     cls=AuthorWhisper)
+#test(INDEX, 'Ellis', [('Ellis', ['Ellis J', 'Ellis J.R'])],
+#     cls=AuthorWhisper)
 
-application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, AuthorWhisper)
+get_worker, application = app(INDEX, MAX_AUTOCOMPLETE, MAX_SIMILAR, AuthorWhisper)

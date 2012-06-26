@@ -1,10 +1,10 @@
-    <script type="text/javascript" src="/du/jqueryui/js/jquery-1.4.2.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.core.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.position.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.autocomplete-rca.js"></script>
-    <!--<link rel="stylesheet" type="text/css" href="./jqueryui/css/redmond/jquery-ui-1.8.2.custom.css">  -->
-    <link rel="stylesheet" type="text/css" href="/du/jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css">
+    <script type="text/javascript" src="/static/jqueryui/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.autocomplete-rca.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="/static/jqueryui/css/redmond/jquery-ui-1.8.2.custom.css">  -->
+    <link rel="stylesheet" type="text/css" href="/static/jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css">
 
     <style type="text/css">
         .menu_body {
@@ -65,9 +65,11 @@
         
         var urls = {
             '': '', // any field
-            'fulltext': '/du/fulltext.py',
-            'keyword': '/du/keywords.py',
-            'author': '/du/authors.py',
+            'wordnet': '/suggest/fulltext.py',
+            'keyword': '/suggest/keywords.py',
+            'author': '/suggest/authors.py',
+            'taxonomy': '/suggest/tagging.py',
+            'random': '/suggest/random_whisper.py',
             '*': '' //default, leave empty to cancel search
         }
         var last_url = null;

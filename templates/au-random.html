@@ -6,13 +6,13 @@
  <meta http-equiv="Content-Language" content="en" />
 
 
-    <script type="text/javascript" src="/du/jqueryui/js/jquery-1.4.2.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.core.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.position.js"></script>
-    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.autocomplete-rca.js"></script>
-    <!--<link rel="stylesheet" type="text/css" href="./jqueryui/css/redmond/jquery-ui-1.8.2.custom.css">  -->
-    <link rel="stylesheet" type="text/css" href="/du/jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css">
+    <script type="text/javascript" src="/static/jqueryui/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="/static/jqueryui/ui/jquery.ui.autocomplete-rca.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="/static/jqueryui/css/redmond/jquery-ui-1.8.2.custom.css">  -->
+    <link rel="stylesheet" type="text/css" href="/static/jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css">
 
     <style type="text/css">
         .menu_body {
@@ -72,7 +72,7 @@
       $(function() {
         
         var urls = {
-            '*': '/random_whisper.py'
+            '*': '/suggest/random_whisper.py'
         }
         var last_url = null;
         
@@ -175,8 +175,10 @@
 <body class="home search" lang="en">
 
 
+{% include "header.html" %}
 
-<form name="search" action="http://inspire-hep-dev.cern.ch/search" method="get">
+
+<form name="search" action="" method="get">
                 
         <!--create_searchfor_simple()-->
         <input type="hidden" name="ln" value="en" />
