@@ -8,7 +8,7 @@
 <path>/dvt/workspace/newseman/src</path>
 </pydev_pathproperty>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
-<path>/dumean/build/dist</path>
-<path>/dumean/src/python</path>
+<path>/dumean.git/src/python</path>
+<path>/dumean.git/build/dist</path>
 </pydev_pathproperty>
 </pydev_project>

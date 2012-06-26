@@ -7,6 +7,7 @@ This file creates your application.
 """
 
 import os
+import time
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
@@ -65,6 +66,47 @@ def site(path):
     print "serving, " , path
     return app.send_static_file('/static/' + path)
 
+
+_applications = {}
+import dumean
+
+@app.route('/<app_name>.py', methods=["GET","POST"])
+def suggest(app_name):
+    worker = None
+    if app_name not in _applications:
+        module = __import__("dumean.apps.%s" % app_name, globals=globals(), locals=locals())
+        if module is None or not hasattr(module.apps, app_name):
+            raise Exception("There is no handler for: %s" % app_name)
+        get_worker = getattr(getattr(module.apps, app_name), 'get_worker')
+        _applications[app_name] = get_worker()
+
+    worker = _applications[app_name]
+    
+    dumean.start_jvm()
+    dumean.attach()
+    
+    query = None
+    if request.args['term']:
+        query = request.args
+    else:
+        return render_template('404.html'), 404
+    
+    start = time.time()
+    if 'term' in query and len(query['term']):
+        if 'data' in query: # 2nd level lookup
+            data = worker.get_similar(query['term'], data=query.getlist('data'))
+        else:
+            data = worker.get_suggestions(query['term'])
+    else:
+        data = []
+
+    if data:
+        t = '<%.6f s>' % (time.time() - start)
+        data.append({'label': t, 'value': t})
+
+    return worker.format(data), 200
+    
+    
 
 
 if __name__ == '__main__':

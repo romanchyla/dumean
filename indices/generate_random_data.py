@@ -2,7 +2,7 @@
 import sys
 import string
 import random
-from dumean.libs import optionparse
+from dumean import optionparse
 
 
 

@@ -25,13 +25,22 @@ Java (>= v1.6)
 ConfigParser (sudo pip install ConfigParser)
 
 
-1. build the dictionary that is used for autocompletion/suggestions
 
-cd ./indices
-python generate_random_data.py demo
+INSTALLATION
+
+$ git clone https://github.com/romanchyla/dumean.git
+$ ant build-unpack
+$ export PYTHONPATH=./src/python:./build/dist
+$ python reindex.py all
+$ python app.py
+
+go to localhost:5000 and test
 
 
-2. index the dictionary (create a special spellchecking index)
 
-java -jar newseman.lucene.whisperer.IndexDictionary ./indices/random ./indices/random.seman
+NOTES:
+
+to run the java manually:
+
+java -jar build/dist/dumean-standalone.jar newseman.lucene.whisperer.IndexDictionary ./indices/random ./indices/random.seman
 

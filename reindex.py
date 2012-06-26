@@ -27,6 +27,20 @@ if __name__ == "__main__":
     elif what == 'random':
         worker.open(os.path.join(_d, 'indices/random'),
                     reindex=os.path.join(_d, 'indices/random.seman'))
+    elif what == 'all':
+        worker.open(os.path.join(_d, 'indices/hepnet'),
+                    reindex=os.path.join(_d, 'indices/hep.seman'))
+        worker.close()
+        worker.open(os.path.join(_d, 'indices/wordnet'),
+                    reindex=os.path.join(_d, 'indices/wordnet.seman'))
+        worker.close()
+        worker.open(os.path.join(_d, 'indices/authors'),
+                    reindex=os.path.join(_d, 'indices/names.seman'))
+        worker.close()
+        os.system('%s indices/generate_random_data.py demo' % sys.executable)
+        os.rename('random.seman', 'indices/random.seman')
+        worker.open(os.path.join(_d, 'indices/random'),
+                    reindex=os.path.join(_d, 'indices/random.seman'))
     else:
         print 'Unknown index: ' + what
     worker.close()
