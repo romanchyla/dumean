@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Language" content="en" />
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="./jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css" />
+    
+ 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.js"></script>
+    
+
+    <style type="text/css">
+        .menu_body {
+            display:none;
+        }
+        .menu_body a {
+            display:inline;
+            line-height:1.3;
+            padding:0.2em 0.3em;
+            text-decoration:none;
+            text-size:smaller;
+        }
+        a.show-more {
+            font-size:small;
+            float:right;
+        }
+        .menu_body a.show-more {
+            display:none;
+        }
+        .menu_body a:hover {
+          
+        }
+        ul.related {
+            list-style: none;
+            padding: 1em 0.5em .5em 1em;
+        }
+        .ui-menu .ui-menu-item a {
+            display:inline;
+            line-height:1.3;
+            padding:0em 0em;
+            text-decoration:none;
+        }
+        ul.ui-menu {
+            background-color:white;
+        }
+        ul.ui-widget-content {
+            background:white;
+        }
+        li.ui-menu-item:hover  { 
+            background: #d5e2ff; 
+        }
+        .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus  {
+            background:none;
+            border:none;
+            color:black;
+            background-color: #d5e2ff;
+            font-weight:bold;
+        }
+        .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+            font-weight:normal;
+            margin:0px;
+        }
+        <!-- new --->
+        .ui-autocomplete ul {
+            display: none;
+          }
+        .ui-autocomplete .ui-simcomplete-more {
+            float: right;
+            cursor: pointer;
+        }
+
+    </style>    
+
+    <script type="text/javascript">
+      $(function() {
+      
+        $.widget( "custom.simcomplete", $.ui.autocomplete, {
+            _renderMenu: function( menuUl, items ) {
+              $.each( items, function( index, item ) {
+                var li = $( "<li></li>" )
+                    .data( "item.autocomplete", item )
+                    .appendTo( menuUl ),
+
+                  label = $( "<a></a>" )
+                    .text( item.label )
+                    .appendTo( li ),
+
+                  more = $( "<span></span>" )
+                    .text( "more" )
+                    .addClass( "ui-icon ui-icon-triangle-1-s ui-simcomplete-more" )
+                    .click(function() {
+                      ul.slideToggle();
+                      return false;
+                    })
+                    .appendTo(label),
+
+                  ul = $( "<ul></ul>" )
+                    .appendTo(li);
+
+                $.each( item.similar, function( index, similar ) {
+                  $( "<li></li>" )
+                    .append( $( "<a></a>" ).text( similar ) )
+                    .click(function( event ) {
+                      menuUl.menu( "activate", event, li );
+                      li.data( "item.autocomplete", {
+                        label: similar,
+                        value: similar
+                      })
+                    })
+                    .appendTo( ul );
+                });
+              });
+            }
+          });
+        
+        // build our customized widget
+        $.widget( "custom.multicomplete", $.ui.autocomplete, {
+            _renderMenu: function( ul, items ) {
+                var self = this;
+                $.each( items, function( index, item ) {
+                    self._renderItem( ul, item );
+                });
+                
+            },
+            _createMenu: function() {
+                self = this;
+                var ul = $( "<ul></ul>" )
+                .menu({
+                    focus: function( event, ui ) {
+                        var item = ui.item.data( "item.autocomplete" );
+                        if ( false !== self._trigger( "focus", null, { item: item } ) ) {
+                            // use value to match what will end up in the input, if it was a key event
+                            if ( /^key/.test(event.originalEvent.type) ) {
+                                self.element.val( item.value );
+                            }
+                        }
+                    },
+                    selected: function( event, ui ) {
+                        var item = ui.item.data( "item.autocomplete" );
+                        if ( false !== self._trigger( "select", event, { item: item } ) ) {
+                            self.element.val( item.value );
+                        }
+                        self.close( event );
+                        // only trigger when focus was lost (click on menu)
+                        var previous = self.previous;
+                        if ( self.element[0] !== doc.activeElement ) {
+                            self.element.focus();
+                            self.previous = previous;
+                        }
+                        self.selectedItem = item;
+                    },
+                    blur: function( event, ui ) {
+                        if ( self.menu.element.is(":visible") ) {
+                            self.element.val( self.term );
+                        }
+                    },
+                })
+                .data("menu");
+                return ul;
+            },
+            _renderItem: function( ul, item) {
+                var self = this;
+                var li = $( "<li></li>" );
+                li.append( $( "<a></a>" )
+                    .text( item.label )
+                        .append( $( "<span></span>" )
+                            .text("more")
+                            .addClass( "ui-icon ui-icon-triangle-1-e ui-simcomplete-more" )
+                            .click(function() {
+                                if (li.find('ul').length == 0) {
+                                    var nestedUl = $( "<ul></ul>" ).css("display", "none");
+                                    
+                                    // when nesting menus -- but feels slower, and uglier
+                                    //var nestedUl = self._createMenu();
+                                    //li.nestedUl = nestedUl;
+                                    //nestedUl.element.css("display", "none");
+                                    //li.append(nestedUl.element);
+                                    li.append(nestedUl);
+                                    li.nestedUl = nestedUl;
+                                }
+                                //self._showMore(li, li.nestedUl.element, li.nestedUl);
+                                self._showMore(li, li.nestedUl);
+                                return false;
+                            })
+                        )
+                    )
+                .data( "item.autocomplete", item )
+                .click(function( event ) {
+                  self.menu.activate(event, $(this));
+                  self.menu.select(event);
+                  return false;
+                })
+                .appendTo(ul); 
+            },
+            _showMore: function(parentLi, nestedUl, nestedUlMenu) {
+                var self = this;
+                 
+                function showUp() {
+                    nestedUl.slideToggle(400, function() {
+                        parentLi.siblings('li').children('ul')
+                            .slideUp(900, function() {
+                                $(this).parent().children('a').children('span')
+                                    .removeClass( "ui-icon-triangle-1-s" )
+                                    .addClass( "ui-icon-triangle-1-e" )
+                                });
+                    });
+                }
+                function _receiveRelated(response, status) {
+                    
+                    self._renderMenu( nestedUl, response );
+                    //console.log(nestedUl.children());
+                    if (nestedUlMenu) {
+                        nestedUlMenu.refresh();
+                    }
+                    showUp();
+                    
+                    parentLi.children('a').children('span')
+                        .removeClass( "ui-autocomplete-loading" )
+                        .removeClass( "ui-icon-triangle-1-s" )
+                        .addClass( "ui-icon-triangle-1-s" );
+                }
+                if (nestedUl.find('li').length > 0 ) {
+                    // we already have the data
+                    showUp();
+                }
+                else {
+                    parentLi.children('a').children('span')
+                        //.removeClass( "ui-icon" )
+                        .removeClass( "ui-icon-triangle-1-e" )
+                        .addClass( "ui-autocomplete-loading" );
+                    // fire-up the search using the parent search function
+                    var item = parentLi.data('item.autocomplete');
+                    self.source({term: item.label, data: item.data}, _receiveRelated);
+                    
+                }
+            },
+        
+        });
+        
+        function split(val) {
+          return val.split(/,\s*/);
+        }
+        function extractLast(term) {
+          return split(term).pop();
+        }
+
+        var autoc = $(".simplesearchfield").multicomplete({
+          
+          delay: 500,
+          minLength: 1,
+          
+          source: [
+                   {label: 'inSPIRE', value: 'INSPIRE 1'},
+                   {label: 'INspire', value: 'INSPIRE 2'},
+                   {label: 'InSpIrE', value: 'INSPIRE 3'},
+                   {label: 'INSPirE', value: 'INSPIRE 4'},
+                   {label: 'INSPirE', value: 'INSPIRE 5'},
+                   {label: 'inspire', value: 'INSPIRE 6'},
+                   {label: 'INSPIRE', value: 'INSPIRE 7'},
+                   ],
+             
+          focus: function() {
+            // prevent value inserted on focus
+            return false;
+          },
+          select: function(event, ui) {
+            //console.dir(ui);
+            //console.trace();
+            var terms = split( this.value );
+            // remove the current input
+            terms.pop();
+            // add the selected item
+            terms.push( ui.item.value );
+            // add placeholder to get the comma-and-space at the end
+            terms.push("");
+            this.value = terms.join(", ");
+            return false;
+          },
+        });
+        
+        $(".simplesearchfield").focus();
+        
+
+	});
+      </script>
+
+
+
+
+</head>
+<body class="home search" lang="en">
+
+
+
+<form name="search" action="http://inspire-hep-dev.cern.ch/search" method="get">
+    <input type="text" name="p" size="40" value="" class="simplesearchfield"/>    
+</form>
+Try searching for: <b>inspire</b>
+</body>
+</html>
