@@ -1,0 +1,6872 @@
+-0
+   zero
+-1
+   one
+-1/2
+   half
+-10
+   ten
+-11
+   eleven
+-2
+   two
+-3
+   three
+   third
+    h: /2\s*\+\s*1/
+-3/2
+-4
+   four
+   fourth
+-5
+   five
+   fifth
+-6
+   six
+-7
+   seven
+-8
+   eight
+-9
+   nine
+ a0(1320)
+    b: meson
+    i: core
+ a0(980)
+    b: meson
+    i: core
+    H: delta(980)
+ a1(1260)
+    b: meson
+    i: core
+    H: A1(1270)
+ a2(1320)
+    b: meson
+    i: core
+    H: A2(1320)
+ a3(2050)
+    b: meson
+    i: core
+    H: A(2050)
+ a4(2040)
+    b: meson
+    i: core
+    H: delta(2040)
+ a6(2450)
+    b: meson
+    i: core
+    H: delta(2450)
+ abelian
+ aberration
+ ABJM model
+    b: membrane model
+    i: core
+ absorption
+ acceleration
+    r: deceleration
+ accelerator
+ acceptance
+    c: accelerators and detectors
+ accretion
+    h: /accret\w+/
+ accumulator
+    c: for accelerators only
+ acoustic
+   sonic
+ actinium
+    b: elements
+-action
+    c: restricted use
+ activity report
+   status report
+    r: review
+ ADD model
+    h: ADD
+    b: field theoretical model
+    i: core
+ adelic
+ adiabatic
+ admixture
+    b: matter
+ AdS/CFT correspondence
+   AdS/CFT
+   Kerr/CFT
+    b: anti-de Sitter
+    i: core
+    H: since dec 08
+ aerogel
+    b: matter
+ affine
+ Affleck-Dine model
+    h: Affleck-Dine
+    b: field theoretical model
+    i: core
+ AGN
+   active galactic nucleus
+   active galactic nuclei
+    i: FC:a
+ Aharonov-Bohm effect
+    h: Aharonov-Bohm
+    i: FC:t
+    i: FC:q
+ Aharonov-Casher effect
+    h: Aharonov-Casher
+    i: FC:t
+ air
+    h: /atmospher\w*/
+    b: matter
+ ALADIN
+   GSI-SIS-ALADIN
+    b: Darmstadt SIS
+    d: Nuclear Fragmentation
+ ALEPH
+    b: CERN LEP Stor
+    i: core
+    d: magnetic detector at LEP
+ algebra
+    h: /algebra\w*/
+ ALICE
+   CERN-LHC-ALICE
+    b: CERN LHC Coll
+    i: core
+    d: magnetic detector at LHC
+    c: not for accelerator at Daresbury
+ alignment
+   misalignment
+    r: polarization
+ alloy
+    b: matter
+ Altarelli-Parisi equation
+    r: DGLAP equation
+    i: core
+ aluminum
+   aluminium
+    b: elements
+ AMANDA
+    r: IceCube
+    b: deep underground detector
+    i: core
+    d: deep underground detector in the Antarctic
+ americium
+    b: elements
+ amplifier
+ amplitude analysis
+    r: partial wave analysis
+    r: scattering amplitude
+ AMS
+    b: satellite
+    c: antimatter
+    H: since dec 08
+ Amsterdam AmPS Stor
+   AmPS
+ Amsterdam MEA
+    X: 0.5 GeV electrons
+ AMY
+   KEK-TE-003
+    b: KEK TRISTAN Stor
+    d: magnetic detector at TRISTAN
+-analog
+    c: electronics
+ analog-to-digital converter
+   ADC
+   FADC
+    i: FC:i
+-analysis
+    r: functional analysis
+    c: only for mathematics; for other fields see: amplitude analysis - partial wave analysis - data analysis method - event shape analysis - statistical analysis - track data analysis
+ analytic properties
+   analyticity
+    r: singularity
+ analyzing power
+ anapole
+    c: moment, anapole
+ angular correlation
+   azimuthal correlation
+    b: correlation
+ angular dependence
+   azimuthal dependence
+    r: angular distribution
+ angular distribution
+   azimuthal distribution
+    r: angular dependence
+ angular momentum
+    r: partial wave
+ angular resolution
+    b: resolution
+ anisotropy
+    h: /anisotrop\w+/
+ ANITA
+   Antarctic Impulsive Transient Antenna
+ ANKE
+   COSY-ANKE
+    b: Juelich COSY PS
+    i: core
+    d: Medium Energy Hadrons
+ annihilation
+    b: interaction
+ anomalon
+    H: 'postulated particle' and 'total cross section, anomaly'
+    X: nonSM
+ anomalous dimension
+    b: dimension
+ anomaly
+ ANTARES
+    b: deep underground detector
+    i: core
+ anthropic principle
+    h: anthropic
+ anti-B
+    r: B
+    b: meson
+    i: core
+ anti-B/s0
+    r: B/s0
+    b: meson
+    i: core
+ anti-B0
+    b: anti-B
+    i: core
+ anti-D
+    r: D
+    b: meson
+    i: core
+ anti-D0
+    b: anti-D
+    i: core
+ anti-de Sitter
+   AdS
+    h: /[aA]dS[\d_\(\)]*/
+    r: de Sitter
+ anti-K
+    r: K
+    b: meson
+    i: core
+ anti-K nucleon
+ anti-K0
+    b: anti-K
+    i: core
+ anti-n
+   antineutron
+    r: n
+    b: antinucleon
+    b: antibaryon
+    i: core
+ anti-n deuteron
+ anti-n nucleus
+ anti-p
+   antiproton
+    r: p
+    b: antinucleon
+    b: antibaryon
+    i: core
+ anti-p deuteron
+ anti-p n
+ anti-p nucleon
+ anti-p nucleus
+ anti-p p
+ antibaryon
+    r: baryon
+    b: hadron
+    b: antifermion
+    i: core
+ antideuteron
+    r: deuteron
+    b: antinucleus
+ antifermion
+    r: fermion
+    b: particle
+    i: core
+ antiferromagnet
+    r: ferromagnet
+ antifield
+    i: core
+ antigravitation
+   antigravity
+    b: gravitation
+ antihydrogen
+    r: hydrogen
+    b: antimatter
+    b: atom
+    i: core
+ antihyperon
+    r: hyperon
+    b: antibaryon
+    i: core
+ Antilambda
+    r: Lambda
+    b: antihyperon
+    i: core
+ Antilambda/b0
+   Antilambda/b
+    r: Lambda/b0
+    b: antibaryon
+    i: core
+ Antilambda/c+
+   Antilambda/c
+    r: Lambda/c+
+    b: antibaryon
+    i: core
+    c: negative charge
+ antilepton
+    r: lepton
+    b: antifermion
+    i: core
+ antimatter
+    r: matter
+ antimony
+    b: elements
+ antineutrino
+    r: neutrino
+    b: antilepton
+    i: core
+ antineutrino baryon
+ antineutrino deuteron
+ antineutrino electron
+ antineutrino meson
+ antineutrino n
+ antineutrino nucleon
+ antineutrino nucleus
+ antineutrino p
+ antineutrino quark
+ antineutrino/e
+    b: antineutrino
+    i: core
+ antineutrino/L
+    b: antineutrino
+    i: core
+    d: heavy lepton antineutrino
+    X: nonSM
+ antineutrino/mu
+    b: antineutrino
+    i: core
+ antineutrino/tau
+    b: antineutrino
+    i: core
+ antinucleon
+    b: antibaryon
+    i: core
+ antinucleon nucleus
+ antinucleus
+    r: nucleus
+    b: antimatter
+    i: core
+ Antiomega-
+    r: Omega-
+    b: antihyperon
+    i: core
+    c: positive charge
+ antiparticle
+    r: particle
+    b: antimatter
+    i: core
+ antiquark
+    h: /anti[\s-]quark/
+    b: antifermion
+    i: core
+ Antisigma
+    r: Sigma
+    b: antihyperon
+    i: core
+ Antisigma+
+    b: Antisigma
+    i: core
+    c: negative charge
+ Antisigma-
+    b: Antisigma
+    i: core
+    c: positive charge
+ Antisigma0
+    b: Antisigma
+    i: core
+ Antixi
+    r: Xi
+    b: antihyperon
+    i: core
+ Antixi-
+    b: Antixi
+    i: core
+    c: positive charge
+ Antixi0
+    b: Antixi
+    i: core
+ any-dimensional
+   d-dimensional
+   n-dimensional
+    r: higher-dimensional
+    b: dimension
+ anyon
+    i: core
+    X: nonSM
+ applied physics
+-approximation
+ argon
+    r: liquid argon
+    b: elements
+ Argonne Lab
+    d: for unspecified accelerators at ANL
+    X: laboratory
+ ARGUS
+    b: DESY DORIS Stor
+    i: core
+    d: magnetic detector at DORIS
+ arsenic
+    b: elements
+ artificial intelligence
+ associated production
+    b: production
+ astatine
+    b: elements
+-astrophysics
+    h: /astrophysic\w*/
+    i: FC:a
+ asymmetry
+    h: /asymmetr\w*/
+    h: /nonsymmetric\w*/
+    b: symmetry
+ asymptotic behavior
+   asymptotic behaviour
+ asymptotic expansion
+    r: Borel transformation
+    b: expansion
+ asymptotic freedom
+    c: for low energies use 'infrared problem'
+ asymptotic safety
+    r: fixed point: ultraviolet
+    r: renormalization group: fixed point
+ at rest
+    c: in energy category '0 GeV, ((1))' is added
+ ATLAS
+   CERN-LHC-ATLAS
+    b: CERN LHC Coll
+    i: core
+    d: magnetic detector at LHC
+ atmosphere
+    h: /atmospher\w*/
+    b: matter
+ atom
+    b: bound state
+ atomic physics
+ ATRAP
+   CERN-ATRAP
+    b: CERN Lab
+    i: core
+    d: Antihydrogen
+ attenuation
+    H: since Dec 07
+ attractor
+ Auger
+    b: observatory
+    i: core
+    H: since Apr 08
+ avalanche
+ axial
+ axial gauge
+    b: gauge
+ axial-vector
+ axial-vector meson
+    b: meson
+    i: core
+ axigluon
+    b: gauge boson
+    i: core
+    X: nonSM
+ axino
+    b: sparticle
+    i: core
+ axiomatic field theory
+   Wightman axiom
+   Osterwalder-Schrader
+    i: core
+ axion
+    h: /axion\w*/
+    r: saxion
+    b: boson
+    i: core
+    X: nonSM
+-B
+   B/d
+   B meson
+    r: anti-B
+    b: meson
+    i: core
+ B anti-B
+ B*(5320)
+    b: B
+    i: core
+ B*2(5732)
+    b: B
+    i: core
+-B+
+    b: B
+    i: core
+ B+L number
+-B-
+    b: B
+    i: core
+ B-factory
+    i: core
+    c: about 10.5 GeV-cms e+e-
+    H: since 2008, was 'B, particle source'
+ B-L number
+   B-L symmetry
+    r: baryon number
+    r: lepton number
+    i: core
+ B-parameter
+-B/c
+    b: meson
+    i: core
+ B/c*
+    b: B/c
+    i: core
+-B/s
+    b: meson
+    i: core
+ B/s*(5430)
+    b: B/s
+    i: core
+ B/s*2(5880)
+    b: B/s
+    i: core
+ B/s0
+    r: anti-B/s0
+    b: B/s
+    i: core
+ B/s0 anti-B/s0
+ B/s1(5890)
+    b: B/s
+    i: core
+ B/s2*(5910)
+    b: B/s
+    i: core
+-B0
+    b: B
+    i: core
+ B0 anti-B0
+ b1(1235)
+    b: meson
+    i: core
+    H: B(1235)
+ BaBar
+   SLAC-PEP2-BABAR
+    b: SLAC PEP Stor
+    i: core
+    d: magnetic detector at PEP
+ Balitsky-Kovchegov equation
+ back reaction
+    h: /back[\s-]*reaction/
+ background
+    r: background field
+    r: noise
+    r: underlying event
+ background field
+    r: background
+ backscatter
+    h: /back[\s-]*scatter\w*/
+    r: scattering: wide-angle
+    b: scattering
+ Baecklund transformation
+ bag model
+    i: core
+ Baikal
+    b: deep underground detector
+    i: core
+ Baksan
+    b: deep underground detector
+    i: core
+ Balitsky-Kovchegov equation
+   Balitsky-Kovchegov
+    i: core
+ barium
+    b: elements
+ Barrett-Crane model
+    i: FC:g
+ baryogenesis
+    r: baryon: production
+    i: FC:a
+ baryon
+    r: dibaryon
+    r: multibaryon
+    r: antibaryon
+    r: baryonium
+    b: hadron
+ baryon antibaryon
+ baryon baryon
+ baryon number
+    r: lepton number
+    r: B-L number
+    i: core
+ baryon resonance
+   baryonic resonance
+    b: baryon
+    i: core
+    c: not used for heavy quark baryons
+ baryonium
+    r: baryon
+    b: bound state
+    i: core
+ Batalin-Vilkovisky
+ Batavia TEVATRON Coll
+   Tevatron
+    b: Fermilab
+    i: core
+    d: 2000 GeV-cms protons
+ Batavia TEVATRON PS
+    b: Fermilab
+    i: core
+    d: 1000 GeV protons
+ Baxter
+ Bayesian
+-beam
+ beam cooling
+    r: beam damping
+    b: beam
+    c: for proton beams; for electron beams use 'beam damping'
+ beam damping
+    r: beam cooling
+    b: beam
+    c: for electron beams; for proton beams use 'beam cooling'
+ beam dump
+    b: beam
+ beam dynamics
+    b: beam
+ beam emittance
+    b: beam
+ beam focusing
+    b: beam
+ beam instability
+    b: stability
+    b: beam
+ beam loading
+   beam filling
+    b: beam
+    c: not used for 'injection'
+ beam loss
+    b: beam
+ beam monitoring
+   beam diagnostics
+    b: monitoring
+    b: beam
+ beam optics
+    b: beam
+ beam oscillation
+    b: oscillation
+    b: beam
+    c: For longitudinal beam oscillation use 'synchrotron oscillation'; for transverse beam oscillation use 'betatron oscillation'.
+ beam position
+   beam steering
+    b: beam
+ beam profile
+   beam shape
+    r: hollow beam
+ beam transport
+   beam line
+    b: beam
+ beam tune
+    b: beam
+    H: since Jul 2008
+ beam-beam
+ beamstrahlung
+    b: beam
+ beat-wave
+ Becchi-Rouet-Stora
+   BRS
+   BRST
+    i: core
+ Beijing Stor
+   BEPC
+    h: /BEPC\w*/
+    i: core
+    X: 5 GeV-cms e+e-
+ Bell inequality
+ BELLE
+   KEK-BF-BELLE
+   Belle
+    b: KEK TRISTAN Stor
+    i: core
+    d: magnetic detector at TRISTAN
+ Beltrami
+ bending magnet
+   dipole magnet
+    i: FC:b
+ bent crystal
+    b: crystal
+ Berkeley Bevalac
+   Bevalac
+    b: Berkeley Lab
+    i: core
+    d: 2 GeV/A ions
+ Berkeley ES
+    b: Berkeley Lab
+    d: ALS, 1-2 GeV electrons, synchrotron radiation
+ Berkeley Lab
+    d: for unspecified accelerators at Berkeley
+    X: laboratory
+ berkelium
+    b: elements
+ Berlin BESSY Stor
+   BESSY
+    X: 0.8 GeV electrons; synchrotron radiation
+ Berry phase
+    b: phase
+ beryllium
+    b: elements
+ BES
+   BES-II
+   BESII
+   BES-III
+   BESIII
+    d: magnetic spectrometer at Beijing Stor
+ beta beam
+    i: core
+    d: electron neutrino beams produced by beta decay of radioactive ions
+ beta function
+ betatron
+ betatron oscillation
+    i: FC:b
+ Bethe ansatz
+ Bethe-Heitler
+ Bethe-Salpeter equation
+   BSE
+    r: Salpeter equation
+ BF model
+   BF theory
+    i: core
+ BFKL equation
+   BFKL
+    i: core
+ Bianchi
+ Bianchi identity
+ bibliography
+ bifurcation
+ big bang
+    i: FC:a
+    i: FC:g
+ big rip
+    i: FC:a
+    i: FC:g
+ bilepton
+    r: lepton
+    r: dilepton
+    b: bound state
+    i: core
+ binary
+ binding energy
+    r: bound state
+ bino
+    b: sparticle
+    i: core
+ biology
+ birefringence
+    h: /birefringen\w+/
+ bismuth
+    b: elements
+ bismuth-germanate
+    b: matter
+ Bjorken
+ black brane
+    b: black hole
+    i: core
+    i: FC:g
+ black hole
+    i: FC:a
+    i: FC:g
+ black ring
+    b: black hole
+    i: FC:a
+    i: FC:g
+ black string
+    i: core
+    i: FC:g
+ Bagger-Lambert-Gustavsson model
+   BLG model
+    b: membrane model
+    i: core
+ BLAST
+   BATES-BLAST
+    b: MIT Linac
+    d: Electron-hadron scattering
+ blast wave
+ blazar
+    i: FC:a
+ block spin transformation
+ Bogolyubov transformation
+ Bogomolnyi equation
+    h: /Bogomolny'*i equation/
+    i: FC:t
+    i: core
+ Bohmian
+    H: since Oct 08
+ bolometer
+    h: /bolometr\w+/
+    r: calorimeter
+ Boltzmann equation
+ Bonn ELSA Stor
+   ELSA
+    i: core
+    X: 3.5 GeV electrons; stretcher ring
+ book
+ BooNE
+   FNAL-E-0898
+   MiniBooNE
+    r: SciBooNE
+    i: core
+    d: mu_nu --> mu_e escillations
+ booster
+ bootstrap
+ Borel transformation
+   Borel summation
+   Borel resummation
+    r: asymptotic expansion
+ Borexino
+    b: deep underground detector
+    i: core
+ Born approximation
+    b: approximation
+ Born-Infeld model
+   DBI
+    h: /\w*Born-Infeld\w*/
+    b: field theoretical model
+    i: core
+ Born-Oppenheimer approximation
+    b: approximation
+ boron
+    b: elements
+ Bose-Einstein
+-boson
+    h: bosonic
+    b: particle
+ boson boson
+ bosonization
+    h: /bosoni[sz]\w+/
+    r: fermionization
+-bottom
+   b-quark
+    s: beauty
+    b: flavor
+    i: core
+ bottom baryon
+    b: bottom
+    b: baryon
+    i: core
+    H: was 'beautiful baryon' till Apr 09
+ bottom meson
+    b: bottom
+    b: meson
+    i: core
+    H: was 'beautiful meson' till Apr 09
+ bottom particle
+    b: bottom
+    b: particle
+    i: core
+    H: was 'beautiful particle' till Apr 09
+ bottomonium
+    b: bottom
+    b: quarkonium
+    i: core
+    H: was 'quarkonium, beauty'
+    H: since Apr 09
+ Boulby
+    b: deep underground detector
+    i: core
+ bounce
+ bound state
+    r: binding energy
+    b: matter
+ boundary condition
+   initial condition
+   initial data
+   initial value
+   Cauchy problem
+ BPS
+   Bogomolny-Prasad-Sommerfield
+ BRAHMS
+   BNL-RHIC-BRAHMS
+    b: Brookhaven RHIC Coll
+    i: core
+    X: magnetic detector, Brahms
+ braid group
+    b: group theory
+ branching ratio
+   branching fraction
+ branon
+    i: core
+    X: nonSM
+ Brans-Dicke model
+    h: BD model
+    h: Brans-Dicke
+    b: cosmological model
+    i: core
+ Breit frame
+ Breit-Wigner
+ bremsstrahlung
+ brick wall model
+    h: /brick[\s-]*wall/
+    i: FC:g
+ brightness
+   brilliance
+    i: FC:i
+ broadening
+ bromine
+    b: elements
+ Brookhaven ES
+   NSLS
+    b: Brookhaven Lab
+    d: 0.75, 2.5 GeV electrons, synchrotron radiation
+ Brookhaven Lab
+   BNL
+    c: for unspecified accelerators at BNL
+ Brookhaven PS
+   AGS
+    b: Brookhaven Lab
+    i: core
+    d: 33 GeV protons
+ Brookhaven RHIC Coll
+   RHIC
+    b: Brookhaven Lab
+    i: core
+    d: 100 GeV/A ions
+ Brownian motion
+ BTeV
+   FNAL-E-0918
+    b: Batavia TEVATRON Coll
+    i: core
+    d: b-flavored hadrons
+    X: magnetic detector, BTeV
+ BTZ
+   Banados-Teitelboim-Zanelli
+    i: FC:g
+ bubble
+ bubble chamber
+ buildings
+    r: site
+ bunching
+   beam chopper
+    r: debunching
+    i: FC:i
+ burst
+-C*
+ c-function
+ Cabibbo angle
+    r: CKM matrix
+    b: mixing angle
+    i: FC:p
+    i: core
+ Cabibbo model
+    i: FC:p
+    i: core
+ cadmium
+    b: elements
+ Calabi-Yau
+    i: FC:t
+    i: FC:m
+ calcium
+    b: elements
+ calibration
+    h: /calibrat\w*/
+    i: FC:i
+ CALICE
+    r: calorimeter
+    i: core
+ californium
+    b: elements
+ Callan-Gross
+    i: core
+ Calogero model
+ Calogero-Moser model
+   Calogero-Moser
+ Calogero-Sutherland model
+   Calogero-Sutherland
+ calorimeter
+    h: /calorimet\w+/
+    r: bolometer
+    r: CALICE
+ caloron
+    i: core
+    X: nonSM
+ CAMAC system
+    b: readout
+-canonical
+    c: restricted use
+ capture
+    r: fusion
+ carbon
+    b: elements
+ Cartan
+ cascade
+    r: showers
+ cascade decay
+    b: decay
+    b: cascade
+ Casimir
+ catastrophe theory
+   catastrophe
+ category
+    h: /categorif\w+/
+ causal set
+    d: partially ordered set (poset) consisting of points and relations between them which encode causal ordering
+ causality
+    h: causal
+ cavity
+   klystron
+    b: RF system
+ CBM
+   GSI-FAIR-CBM
+    b: Darmstadt GSI FAIR
+ CCD
+    d: charge-coupled device
+ CCFM equation
+    h: CCFM
+    i: core
+ CDF
+   FNAL-E-0830
+    b: Batavia TEVATRON Coll
+    i: core
+    d: magnetic detector at TEVATRON Coll
+ CELLO
+    b: DESY PETRA Stor
+    i: core
+    d: magnetic detector at PETRA
+ cellular automaton
+    h: /cellular automat\w*/
+ centauro
+ central charge
+ central charge dependence
+ central region
+    c: for scattering
+ ceramics
+    b: matter
+ CERES
+   CERN-NA-045
+    b: CERN SPS
+    i: core
+    d: e+ e- pairs in heavy ion collision
+ cerium
+    b: elements
+ CERN CLIC
+   CLIC
+    i: core
+ CERN Lab
+   CERN
+    i: core
+    d: for unspecified accelerators at CERN
+    X: laboratory
+ CERN LEAR
+   LEAR
+    b: CERN Lab
+    i: core
+    d: low energy antiprotons
+ CERN LEP Stor
+   LEP
+   LEP2
+    b: CERN Lab
+    i: core
+    d: up to 210 GeV-cms e+e-
+ CERN LHC Coll
+   LHC
+   Large Hadron Collider
+    b: CERN Lab
+    i: core
+    d: 16000 GeV-cms protons
+ CERN SPS
+   SPS
+    b: CERN Lab
+    i: core
+    d: 450 GeV protons, 200 AGeV ions
+ CERN SPS Coll
+    h: /SPS Coll\w*/
+    b: CERN Lab
+    i: core
+    d: 900 GeV-cms anti-p p
+ cesium
+    b: elements
+-chain
+ chameleon
+ channel cross section
+    r: total cross section
+    b: cross section
+ channeling
+ CHAOS
+   TRIUMF-CHAOS
+    b: TRIUMF Cycl
+ chaos
+   chaotic
+    r: percolation
+    r: turbulence
+ Chaplygin
+    i: core
+ character
+    c: group theory
+-charge
+ charge conjugation
+   C-parity
+ charge correlation
+    b: correlation
+ charge dependence
+ charge distribution
+    c: for beams, jets and nuclei; for particles use 'form factor, electric'
+ charge exchange
+ charged current
+    b: current
+ charged particle
+   doubly charged
+    r: neutral particle
+    b: particle
+ chargino
+    r: neutralino
+    b: sparticle
+    i: core
+ charm
+    b: flavor
+    i: core
+ charmed baryon
+    b: charm
+    b: baryon
+    i: core
+ charmed meson
+    b: charm
+    b: meson
+    i: core
+ charmed particle
+    b: charm
+    b: particle
+    i: core
+    c: for hidden charm use 'charmonium' or e.g. 'psi mesons'
+ charmonium
+    b: charm
+    b: quarkonium
+    i: core
+-chemical
+ chemistry
+ Cherenkov
+    r: Cherenkov counter
+ Cherenkov counter
+   Cherenkov detector
+   Cherenkov telescope
+   DIRC
+    r: Cherenkov
+    i: core
+ Chern-Simons number
+ Chern-Simons term
+   Chern-Simons formulation
+    h: /Chern[- ]Simons [^n]\w*/
+    i: core
+ chi mesons
+    b: meson
+    i: core
+    d: for chi/c and chi/b
+ chi/b0(10235)
+    b: chi mesons
+    i: core
+    H: chi/b(10235)
+ chi/b0(9860)
+    b: chi mesons
+    i: core
+    H: chi/b(9875)
+ chi/b1(10255)
+    b: chi mesons
+    i: core
+    H: chi/b(10255)
+ chi/b1(9890)
+    b: chi mesons
+    i: core
+    H: chi/b(9895)
+ chi/b2(10270)
+    b: chi mesons
+    i: core
+    H: chi/b(10270)
+ chi/b2(9915)
+    b: chi mesons
+    i: core
+    H: chi/b(9915)
+ chi/c0(3415)
+    b: chi mesons
+    i: core
+    H: chi(3415)
+ chi/c1(3510)
+    b: chi mesons
+    i: core
+    H: chi(3510)
+ chi/c2(3555)
+    b: chi mesons
+    i: core
+    H: chi(3555)
+ chiral
+ chiral quark soliton model
+    i: core
+ chlorine
+    b: elements
+ CHORUS
+   CERN-WA-095
+    b: CERN SPS
+    i: core
+    d: Neutrino oscillation search
+ Chou-Yang model
+    i: core
+ chromaticity
+ chromium
+    b: elements
+ chromomagnetic
+    b: color
+ circle
+    r: sphere
+ CKM matrix
+   Cabibbo-Kobayashi-Maskawa matrix
+   Kobayashi-Maskawa angle
+   CKM angle
+    r: Cabibbo angle
+    r: mixing angle
+    i: core
+    H: was 'Kobayashi-Maskawa angle'
+ CLAS
+   CEBAF Large Acceptance Spectrometer
+    i: core
+    d: magnetic spectrometer at CEBAF
+-classical
+    c: restricted use
+ Clebsch-Gordan coefficients
+ CLEO
+   CLEO-c
+    b: Cornell CESR Stor
+    i: core
+    d: magnetic detector at CESR
+ CLEO-II
+   CESR-CLEO-II
+    b: Cornell CESR Stor
+    i: core
+ Clifford
+-closed
+    r: open
+    c: field theory
+ closure approximation
+    b: approximation
+ cloud
+ cluster
+   clan
+ CMD
+    d: at Novosibirsk
+ CMD-2
+   NOVOSIBIRSK-CMD-2
+    b: Novosibirsk VEPP-2000
+    i: core
+    d: e+ e- --> hadrons
+ CMS
+   CERN-LHC-CMS
+    b: CERN LHC Coll
+    i: core
+    d: magnetic detector at LHC
+ CNGS
+   CERN-CNGS
+ coalescence
+    h: /coalesc\w*/
+ cobalt
+    b: elements
+ COBRA
+    b: deep underground detector
+    i: core
+ coherence
+ coherent interaction
+   coherent scattering
+    b: coherence
+    b: interaction
+ coherent state
+    b: coherence
+ cohomology
+    h: /cohomolog\w+/
+    r: homology
+ coil
+ collapse
+    h: /collaps\w+/
+ collective
+    r: collective phenomena
+ collective phenomena
+    r: collective
+ colliding beam detector
+    i: core
+ colliding beams
+    c: for accelerator use 'storage ring' or 'linear collider'
+ collimator
+    h: /collimat\w+/
+ collinear
+ color
+ color flavor locked phase
+   CFL
+    i: core
+ color glass condensate
+    h: CGC
+    b: color
+    b: glass
+    b: condensation
+    i: core
+ color spin locked phase
+   CSL
+    i: core
+ colored particle
+    b: color
+    b: particle
+    i: core
+ coloron
+    i: core
+    X: nonSM
+-communications
+    r: network
+ commutation relations
+   commutator
+   CAR
+   CCR
+-compact
+ compacton
+    d: soliton with compact support
+    b: soliton
+ compactification
+    h: /compactif\w*/
+    r: dimensional reduction
+ COMPASS
+   CERN-NA-058
+    b: CERN SPS
+    i: core
+    d: Hadron structure using muons
+ CompHEP
+    b: programming
+    r: Feynman graph
+-complex
+    c: used only in the mathematical sense
+ composite
+    b: matter
+ Compton scattering
+   Compton process
+    b: scattering
+ computer
+-concrete
+ condensation
+    h: /condensat\w+/
+ condensed matter
+    b: matter
+-conference proceedings
+    s: conference
+-conference summary
+    s: conference, summary
+    r: review
+ confidence limit
+    c: restricted use
+ confinement
+    h: confining
+    r: deconfinement
+ conformal
+    h: superconformal
+ conformal gauge
+    b: gauge
+ conifold
+ conservation law
+   constant of motion
+    h: conservation
+    h: /conserv\w+/
+-constant
+    c: for fields constant in space and time
+ constituent
+    c: constituent quark
+ constituent interchange
+    r: hard scattering
+-constraint
+    h: constrained
+    c: for field theory
+ constructive
+    c: field theory
+ contact interaction
+ continuum limit
+ control system
+   DOOCS
+   slow control
+ copper
+    b: elements
+ Cornell CESR Stor
+   CESR
+    b: Cornell Lab
+    i: core
+    d: 16 GeV-cms e+e-
+ Cornell Lab
+    c: for unspecified accelerators at Cornell
+    X: laboratory
+-correction
+ correlation
+ correlation function
+   correlator
+   Wightman function
+    r: n-point function
+    b: correlation
+ coset space
+   coset
+ cosmic background radiation
+   CMB
+   cosmic microwave background
+    b: cosmic radiation
+ cosmic censorship
+ cosmic radiation
+   cosmic ray
+    h: /cosmic[-\s]*ray\w*/
+    b: radiation
+    b: astrophysics
+ cosmic string
+    b: string model
+    i: core
+ cosmion
+    i: core
+    X: nonSM
+ cosmological constant
+   cosmological term
+    b: fundamental constant
+    d: energy of empty space
+    H: astrophysics, fundamental constant
+    i: FC:g
+ cosmological model
+    i: FC:g
+    H: till Jul 08 'astrophysics, model'
+ costs
+ Coulomb
+ Coulomb gauge
+    b: gauge
+    b: Coulomb
+ coupled channel
+-coupling
+    h: coupled
+    r: decoupling
+    c: restricted use
+ coupling constant
+   coupling strength
+    b: coupling
+ covariance
+    r: invariance
+-CP
+ CP(1)
+ CP(N)
+    h: CP^N
+ CP(N) model
+    r: sigma model
+    i: core
+ CPLEAR
+   CERN-PS-195
+    b: CERN SPS
+    i: core
+    d: Detector for CP, CPT symmetry studies at CERN SPS
+ CPT
+   TCP
+ CRESST
+    i: core
+    d: WIMP detector
+ critical phenomena
+   phase transition
+   phase structure
+   phase diagram
+   critical exponent
+   critical point
+    h: /critical behav\w+/
+-cross section
+ crossing
+ crumpling
+ cryogenics
+   cryostat
+    h: /cryogen\w+/
+    r: temperature
+    r: heat engineering
+ crystal
+    h: /crystal\w*/
+ Crystal Ball
+    b: DESY DORIS Stor
+    i: core
+    d: four-pi-detector at DORIS
+ Crystal Barrel
+   BONN-ELSA-CRYSTAL-BARREL
+    b: Bonn ELSA Stor
+ cumulant expansion
+    b: expansion
+ cumulative production
+    b: production
+ curium
+    b: elements
+-current
+ current algebra
+    b: algebra
+ curvaton
+    i: core
+    X: nonSM
+ curvature
+ CUSB
+    b: Cornell CESR Stor
+    i: core
+    d: four-pi-detector at CESR
+ CVC model
+   conserved vector current
+    r: PCAC model
+    b: current algebra
+    i: core
+ cyclic
+ cyclotron
+ cylinder
+    X: for field theories, e.g. 'space-time, cylinder'
+-D
+    r: anti-D
+    b: charmed meson
+    i: core
+ D anti-D
+ D(2440)
+    b: D
+    i: core
+ D*(2010)
+    b: D
+    i: core
+ D*2(2460)
+    b: D
+    i: core
+-D+
+    b: D
+    i: core
+-D-
+    b: D
+    i: core
+ D-brane
+    h: /D[\dp][\s-]branes*/
+    b: membrane model
+    i: core
+ D-particle
+    b: particle
+    i: core
+    c: not for D-mesons
+ D-term
+-D/s
+    b: meson
+    i: core
+    H: F
+ D/s(2564)
+    b: D/s
+    i: core
+ D/s*(2110)
+    b: D/s
+    i: core
+    H: F*(2140)
+ D/s*(2790)
+    b: D/s
+    i: core
+ D/s*2(2536)
+    b: D/s
+    i: core
+ D/s*2(2573)
+    b: D/s
+    i: core
+ D/s+
+    b: D/s
+    i: core
+    H: F+
+ D/s-
+    b: D/s
+    i: core
+    H: F-
+ D/s0*(2317)
+    b: D/s
+    i: core
+    H: D/sJ*(2317)
+ D/s1(2536)
+    b: D/s
+    i: core
+ D/sJ*(2460)
+    b: D/s
+    i: core
+    H: (2463)
+ D/sJ*(2632)
+    b: multiquark
+    i: core
+ D/sJ*(2860)
+    b: D/s
+    i: core
+-D0
+    b: D
+    i: core
+    c: meson; for the detector use 'DZERO'
+ D0 anti-D0
+ D1(2420)
+    b: D
+    i: core
+    H: D/J(2420), D*(2420)
+ Dalitz plot
+ DAMA
+    b: deep underground detector
+    H: since Mar 09
+ damage
+    r: effect
+    X: e.g. 'radiation, damage'
+ Darboux transformation
+ Daresbury ES
+    X: "(""SRS""; 2 GeV electrons; synchrotron radiation)"
+ dark energy
+   DE
+ dark matter
+   DM
+   CDM
+    H: astrophysics, missing-mass
+ Darmstadt ESR
+   ESR
+    X: 1.3 GeV/A ions
+ Darmstadt GSI FAIR
+   FAIR facility
+    h: /GSI[-\s]*FAIR/
+ Darmstadt Lab
+ Darmstadt SIS
+   SIS
+ data acquisition
+   DAQ
+    r: signal processing
+    c: electronics, software trigger
+ data analysis method
+    r: signal processing
+    c: off-line
+ data compilation
+    c: for printed data summaries, manuals on contents of data bases, etc.
+ data management
+   database
+    c: used for data bases, file and memory management, data access and storage methods
+ data preservation
+ de Sitter
+    r: anti-de Sitter
+ DEAR
+   FRASCATI-DAFNE-DEAR
+    b: Frascati Stor
+    d: at DAFNE
+ debunching
+    r: bunching
+ Debye
+-decay
+ decay constant
+    r: lifetime
+    b: decay
+ decay modes
+    r: rare decay
+    b: decay
+ decay rate
+    r: width
+    c: for large decay rates use 'width'
+ deceleration
+    h: /decelerat\w+/
+    r: acceleration
+ decoherence
+    r: incoherent interaction
+    b: coherence
+    d: process that causes quantum particles to lose their distinctively quantum behavior
+ deconfinement
+    h: /deconfin\w+/
+    r: confinement
+ deconstruction
+ decoupling
+    h: /decoupl\w+/
+    r: coupling
+ decuplet
+    b: multiplet
+ deep inelastic scattering
+   DIS
+    h: /deep inelastic\w*/
+    b: inelastic scattering
+    i: core
+ deep underground detector
+   underground detector
+    i: core
+ deeply virtual Compton scattering
+   DVCS
+    b: Compton scattering
+    i: core
+ defect
+    X: e.g. 'defect, topological'; see also 'error', 'perturbation'
+ deflection
+ deformation
+   deformed
+    h: /q-deform\w*/
+ del Pezzo
+ delocalization
+    r: localization
+ DELPHI
+    b: CERN LEP Stor
+    i: core
+    d: magnetic detector at LEP
+-Delta    
+    b: nucleon resonance
+    i: core
+ delta expansion
+    b: expansion
+ Delta(1232)
+    b: Delta
+    i: core
+    d: partial wave P33
+ Delta(1232)+
+   Delta+
+    b: Delta(1232)
+    i: core
+ Delta(1232)++
+   Delta++
+    b: Delta(1232)
+    i: core
+ Delta(1232)-
+   Delta-
+    b: Delta(1232)
+    i: core
+ Delta(1232)0
+    b: Delta(1232)
+    i: core
+ Delta(1600)
+    b: Delta
+    i: core
+    d: partial wave P33
+ Delta(1620)
+    b: Delta
+    i: core
+    d: partial wave S31
+ Delta(1700)
+    b: Delta
+    i: core
+    d: partial wave D33
+ Delta(1750)
+    b: Delta
+    i: core
+    d: partial wave P31
+ Delta(1900)
+    b: Delta
+    i: core
+    d: partial wave S31
+ Delta(1905)
+    b: Delta
+    i: core
+    d: partial wave F35
+ Delta(1910)
+    b: Delta
+    i: core
+    d: partial wave P31
+ Delta(1920)
+    b: Delta
+    i: core
+    d: partial wave P33
+ Delta(1930)
+    b: Delta
+    i: core
+    d: partial wave D35
+ Delta(1940)
+    b: Delta
+    i: core
+    d: partial wave D33
+ Delta(1950)
+    b: Delta
+    i: core
+    d: partial wave F37
+ Delta(2000)
+    b: Delta
+    i: core
+    d: partial wave F35
+ Delta(2150)
+    b: Delta
+    i: core
+    d: partial wave S31
+ Delta(2200)
+    b: Delta
+    i: core
+    d: partial wave G37
+ Delta(2300)
+    b: Delta
+    i: core
+    d: partial wave H39
+ Delta(2350)
+    b: Delta
+    i: core
+    d: partial wave D35
+ Delta(2390)
+    b: Delta
+    i: core
+    d: partial wave F37
+ Delta(2400)
+    b: Delta
+    i: core
+    d: partial wave G39
+ Delta(2420)
+    b: Delta
+    i: core
+    d: partial wave H311
+ Delta(2750)
+    b: Delta
+    i: core
+ Delta(2950)
+    b: Delta
+    i: core
+ density
+ density dependence
+    b: density
+    b: dependence
+ density matrix
+    b: density
+-dependence
+ depolarization
+    b: polarization
+-derivative
+-design
+    r: fabrication
+    c: basic design only
+ desorption
+    r: emission
+ DESY DORIS Stor
+   DORIS
+    b: DESY Lab
+ DESY FLASH
+   FLASH
+   VUV-FEL
+    b: DESY Lab
+ DESY HERA Stor
+   HERA
+    b: DESY Lab
+    i: core
+ DESY Lab
+    c: for unspecified accelerators at DESY
+    X: laboratory
+ DESY PETRA Stor
+   PETRA
+    b: DESY Lab
+    i: core
+ DESY TESLA Linac
+    b: DESY Lab
+    i: core
+ DESY XFEL
+    b: DESY Lab
+-detector
+   sensor
+   telescope
+    c: use more specific term if possible
+ determinant
+    X: e.g. 'fermion, determinant'
+ deuterium
+    r: deuteron
+    b: elements
+    b: nuclide
+ deuteron
+    r: deuterium
+    r: antideuteron
+    b: nucleus
+ deuteron deuteron
+ deuteron nucleus
+ DGLAP equation
+   DGLAP
+    r: Altarelli-Parisi equation
+    i: core
+ diamond
+    b: matter
+ DIANA
+   ITEP-913
+    b: Moscow ITEF PS
+ dibaryon
+    r: baryon
+    b: bound state
+    i: core
+ dielectric
+ diffeomorphism
+-difference
+-differential
+ differential cross section
+    b: cross section
+ differential equations
+    r: integral equations
+ differential forms
+   p-form
+    h: /\d+-forms*/
+ differential geometry
+    b: geometry
+ diffraction
+    h: /diffract\w+/
+    r: nondiffractive
+ diffusion
+ dihadron
+    r: hadron
+ dilation
+   dilatation
+ dilaton
+    i: core
+    X: nonSM
+ dilepton
+    r: lepton
+    r: bilepton
+    b: bound state
+    i: core
+ dilute gas approximation
+    b: approximation
+-dimension
+    r: dimensional
+    c: usually coupled with the number of dimensions
+-dimensional
+    r: dimension
+ dimensional reduction
+    h: dimensionally reduced
+    r: compactification
+    r: higher-dimensional
+ dimuon
+    r: muon
+    b: dilepton
+    i: core
+ dip
+ dipole
+    c: for dipole magnet use 'bending magnet'
+ diquark
+    r: quark
+    b: bound state
+    i: core
+ DIRAC
+   CERN-PS-212
+    b: CERN SPS
+    d: pi+ pi- atom lifetime
+-Dirac
+ Dirac equation
+    b: field equations
+ Dirac-Kaehler equation
+   Dirac-Kahler equation
+    b: field equations
+    i: core
+ direct production
+    b: production
+-discrete
+    h: /discret\w+/
+ discrete light cone quantization
+   DLCQ
+    b: quantization
+    i: core
+ dispersion
+ dispersion relation
+ dissipation
+    h: /dissipat\w+/
+ dissociation
+    r: fission
+ distorted wave Born approximation
+   DWBA
+    b: approximation
+    b: Born approximation
+ distorted wave impulse approximation
+    b: approximation
+    b: impulse approximation
+ DISTO
+   SATURNE-213
+    b: Saclay PS 
+ distribution function
+ domain wall
+ Donaldson theory
+    b: knot theory
+ DONUT
+   FNAL-E-0872
+    b: Batavia TEVATRON Coll
+    i: core
+    d: Tau production from nu_tau + N --> tau + X 
+ Doppler effect
+ Dortmund DELTA Stor
+    X: 1.5 GeV electrons; synchrotron radiation
+ dosimetry
+ Double Chooz
+    i: core
+    d: reactor-based neutrino oscillation experiment, France
+ double-beta decay
+    b: semileptonic decay
+    i: core
+    c: For neutrinoless mode use 'double-beta decay, (0neutrino)'
+    H: before 1994 see 'nucleus, semileptonic decay'
+ doublet
+    r: pair
+    b: multiplet
+    X: see also 'pair'
+ doubling
+    H: since 2008
+ doubly special relativity
+   deformed special relativity
+    d: special relativity with a second limit in addition to the speed of light
+    r: special relativity
+    b: relativity theory
+    i: core
+-down
+   d-quark
+    b: flavor
+    i: core
+ Drell-Hearn-Gerasimov
+   GDH
+    i: core
+ Drell-Yan process
+    i: core
+ drift chamber
+   drift detector
+ drift tube
+    b: tube
+ drift velocity
+    b: velocity
+ droplet
+   granule
+ dual resonance model
+    i: core
+ duality
+    h: /dual\w*/
+ Dubna Lab
+   JINR
+    d: for unspecified accelerators at JINR
+ Dubna Nuclotron
+   Nuclotron
+    b: Dubna Lab
+    i: core
+    d: 8 GeV/A ion collider
+ Dubna PS
+    b: Dubna Lab
+    i: core
+    d: 10 GeV protons, 6 GeV/A ions
+ Duffin-Kemmer-Petiau equation
+    i: core
+ DUMAND
+    b: deep underground detector
+    i: core
+ Dvali-Gabadadze-Porrati model
+   Dvali-Gabadadze-Porrati
+   DGP model
+    i: core
+ dynamical symmetry breaking
+   DSB
+    h: dynamically broken
+    h: dynamical breaking
+    r: spontaneous symmetry breaking
+    b: symmetry breaking
+    i: core
+ dynamical system
+ dyon
+    h: dyonic
+    i: core
+    X: nonSM
+ Dyson-Schwinger equation
+   Schwinger-Dyson equation
+    i: core
+ dysprosium
+ DZERO
+   FNAL-E-0823
+    b: Batavia TEVATRON Coll
+    i: core
+    d: four-pi-detector at TEVATRON Coll
+ E(6)
+ E(7)
+ E(8)
+ E(8) x E(8)
+ EDDA
+   COSY-EDDA
+    i: core
+    d: study p + p excitation functions at Cooler Synchrotron COSY 
+ EDELWEISS
+    r: dark matter
+    r: bolometer
+-effect
+    c: restricted use
+ effective action
+    r: effective field theory
+    r: effective potential
+    b: action
+ effective field theory
+   EFT
+    r: effective action
+    r: effective Hamiltonian
+    r: effective Lagrangian
+ effective gauge boson approximation
+    r: equivalent photon approximation
+    b: approximation
+    i: core
+ effective Hamiltonian
+    r: effective field theory
+    r: Hamiltonian formalism
+ effective Lagrangian
+    r: effective field theory
+ effective potential
+    r: effective action
+    b: potential
+ effective range
+ efficiency
+    c: instrumentation
+ Eguchi-Kawai model
+    b: field theoretical model
+    i: core
+ EHS
+    b: CERN SPS Coll
+    d: four-pi-detector at SPS
+ eikonal
+ Einstein equation
+    h: /Einstein'*s* field equations/
+    r: Einstein-Yang-Mills theory
+    r: Einstein-Yang-Mills-Higgs theory
+    b: field equations
+    i: FC:g
+ Einstein-Cartan
+    i: FC:g
+ Einstein-Hilbert
+    i: FC:g
+ Einstein-Maxwell equation
+    h: Einstein-Maxwell
+    b: field equations
+    i: FC:g
+ Einstein-Podolsky-Rosen paradox
+   EPR
+ Einstein-Yang-Mills theory
+   Einstein-Yang-Mills
+   EYM
+    r: Einstein equation
+    r: Einstein-Yang-Mills-Higgs theory
+    i: FC:g
+    i: FC:t
+    i: core
+ Einstein-Yang-Mills-Higgs theory
+   EYMH
+    r: Einstein equation
+    r: Einstein-Yang-Mills theory
+    i: FC:g
+    i: FC:t
+    i: core
+ einsteinium
+    b: elements
+ ejection
+ ekpyrotic
+    i: core
+    i: FC:g
+ elastic scattering
+    r: inelastic scattering
+    b: scattering
+-electric
+    r: electrostatic
+    b: electromagnetic
+ electric field
+ electric moment
+   electric dipole moment
+   EDM
+ electrical engineering
+ electrode
+    X: mainly used for drift chambers
+    i: FC:i
+ electrofission
+    d: fission induced by electrons or muons
+ electromagnetic
+ electromagnetic component
+ electromagnetic decay
+    r: radiative decay
+    b: decay
+ electromagnetic field
+   electrodynamics
+ electromagnetic interaction
+    b: interaction
+ electron
+   e-
+    r: positron
+    r: positronium
+    b: lepton
+    c: also used when charge is irrelevant
+ electron cooling
+    b: beam cooling
+    i: FC:i
+ electron deuteron
+ electron electron
+    c: also used when charge is irrelevant
+ electron hadron
+ electron meson
+ electron muon
+ electron muon+
+ electron muon-
+ electron n
+   electron neutron
+ electron nucleon
+ electron nucleus
+   electron ion
+ electron number
+ electron p
+   e p
+   e- p
+   electron proton
+ electron pi
+ electron positron
+   e+ e-
+ electron quark
+ electron synchrotron
+    b: synchrotron
+ electronics
+    X: restricted use; see also 'signal processing'
+    i: FC:i
+ electroproduction
+    b: production
+    b: leptoproduction
+    c: for particle production by electrons
+ electrostatic
+    r: electric
+    r: static
+ electroweak interaction
+   electroweak
+    b: interaction
+    i: core
+-elements
+    b: matter
+ elliptic flow
+    i: core
+ Ellis-Jaffe
+    i: core
+ embedding
+-emission
+   knock-out
+    h: /emitt\w+/
+    r: desorption
+    r: flux
+-energy
+ energy dependence
+    b: energy
+ energy eigenstate
+    b: energy
+ energy flow
+    b: energy
+    b: flow
+ energy levels
+    r: energy spectrum
+    b: energy
+ energy loss
+   dE/dx
+    b: energy
+    b: loss
+ energy recovery
+ energy resolution
+    b: resolution
+    b: energy
+ energy spectrum
+    r: energy levels
+    b: spectrum
+    b: energy
+ energy-momentum
+ engineering
+ enhancement
+    r: suppression
+ enhancon
+    X: nonSM
+ entanglement
+    h: /entangl\w*/
+    d: Properties of a system of particles can't be explained as properties of the individual particles
+ entropy
+    d: measure of the number of possible ways molecules in a substance can be arranged for a given amount of energy
+ LBL-E-0987
+    d: Berkley Bevelac project EOS
+ epsilon expansion
+    b: expansion
+ equation of state
+   EOS
+   state equation
+ equivalence principle
+   principle of equivalence
+   WEP
+   SEP
+    d: acceleration produces an artificial gravity and, conversely, gravity is indistinguishable from acceleration
+ equivalence theorem
+ equivalent gauge boson
+    i: core
+ equivalent photon approximation
+   Weizsaecker-Williams
+    r: effective gauge boson approximation
+    b: approximation
+ erbium
+    b: elements
+ Erevan ES
+    X: 6 GeV electrons
+ eRHIC
+    b: Brookhaven RHIC Coll
+    i: core
+    d: high luminosity polarized Electron Ion Collider
+ Ernst
+    X: space-time, Ernst' or 'potential, Ernst'
+-error
+    X: see also 'difference', 'defect', 'perturbation', or 'correction'
+-eta
+    b: meson
+ eta nucleon
+ eta(1295)
+    b: eta
+    i: core
+ eta(1440)
+    b: eta
+    i: core
+    H: iota(1440)
+ eta(1760)
+    b: eta
+    i: core
+ eta(2100)
+    b: eta
+    i: core
+ eta(2225)
+    b: eta
+    i: core
+ eta(958)
+   eta'
+    b: eta
+ eta/b
+    b: meson
+ eta/c(2980)
+   eta/c(1S)
+    b: meson
+    i: core
+ eta/c(3590)
+   eta/c(2S)
+    b: meson
+    i: core
+ eta/t
+    b: meson
+ eta2(1870)
+    b: meson
+    i: core
+ ether
+   aether
+ Euclidean
+ europium
+    b: elements
+ evaporation
+ event shape analysis
+    h: /event[ -]*shape/
+    r: thrust
+    i: core
+ exceptional
+-exchange
+ excited nucleus
+    b: excited state
+    b: nucleus
+ excited state
+    h: excitation
+    r: ground state
+ exclusive production
+ exclusive reaction
+    b: interaction
+-exotic
+-expansion
+    X: see also 'asymptotic expansion', 'delta expansion', 'epsilon expansion', 'high temperature expansion', 'hopping parameter expansion', 'low temperature expansion', 'operator product expansion'
+ expansion 1/d
+    b: expansion
+ expansion 1/N
+   large N
+    h: /large[\s-]N.*/
+    b: expansion
+ experimental equipment
+    b: detector
+ experimental methods
+ experimental results
+ extended particle
+    b: particle
+-external
+ external field
+-f(R)
+ F-theory
+ f0(1240)
+    b: meson
+    i: core
+ f0(1300)
+    b: meson
+    i: core
+ f0(1370)
+    b: meson
+    i: core
+ f0(1400)
+    b: meson
+    i: core
+ f0(1500)
+    b: meson
+    i: core
+ f0(1525)
+    b: meson
+    i: core
+ f0(1590)
+    b: meson
+    i: core
+ f0(1710)
+    b: meson
+    i: core
+    H: f2(1720), Theta(1690)
+ f0(1750)
+    b: meson
+    i: core
+    H: S(1730), see also 'X(1740)'
+ f0(600)
+   sigma meson
+    b: meson
+    i: core
+    H: swapped Apr 09
+ f0(980)
+    b: meson
+    i: core
+    H: S*(975), later f0(975)
+ f1(1285)
+    b: meson
+    i: core
+    H: D(1285)
+ f1(1420)
+    b: meson
+    i: core
+    H: E(1420)
+ f1(1510)
+    b: meson
+    i: core
+    H: D(1530)
+ f2(1270)
+    b: meson
+    i: core
+    H: f(1270)
+ f2(1430)
+    b: meson
+    i: core
+ f2(1520)
+    b: meson
+    i: core
+ f2(1525)
+    b: meson
+    i: core
+ f2(1640)
+    b: meson
+    i: core
+ f2(1810)
+    b: meson
+    i: core
+    H: f(1815)
+ f2(2010)
+    b: meson
+    i: core
+    H: g/t(2010...2160)
+ f2(2150)
+    b: meson
+    i: core
+    H: epsilon(2150)
+ f2(2175)
+    b: meson
+    i: core
+    H: PDG: f2(2150)?
+ f2(2300)
+    b: meson
+    i: core
+    H: g/t(2240)
+ f2(2340)
+    b: meson
+    i: core
+    H: g/t(2340)
+ f4(2050)
+    b: meson
+    i: core
+    H: h(2030)
+ f4(2220)
+    b: meson
+    i: core
+    H: X(2220), xi(2220)
+ f4(2300)
+    b: meson
+    i: core
+    H: epsilon(2300)
+ f6(2510)
+    b: meson
+    i: core
+    H: r(2510)
+ fabrication
+   manufacturing
+    r: design
+    r: technology
+    r: production
+ factorization
+ false vacuum
+    b: vacuum state
+    i: core
+ familon
+    i: core
+    X: nonSM
+ family
+    r: flavor
+    c: for quark/lepton families, e.g. 'family, 4'
+    c: generation
+ far detector
+    b: neutrino: detector
+ fast logic
+    r: trigger
+ FASTBUS system
+    b: readout
+ feedback
+    c: used only in connection with accelerators
+ FENICE
+    b: Frascati Stor
+    i: core
+    d: colliding beam detector at DAFNE, non-magnetic
+ Fermi gas
+ Fermi liquid
+-Fermilab
+    d: for unspecified accelerators at FNAL; see also 'Batavia ...'
+    X: laboratory
+-fermion
+    h: fermionic
+    r: antifermion
+    b: particle
+ fermion antifermion
+ fermion boson
+ fermion fermion
+ fermion magnetic monopole
+ fermion number
+   quark number
+ fermionization
+    r: bosonization
+ fermium
+ ferromagnet
+    r: antiferromagnet
+ few-body problem
+    r: many-body problem
+    r: three-body problem
+ Feynman
+ Feynman gauge
+    b: gauge
+    i: core
+ Feynman graph
+   Feynman integral
+   Feynman diagram
+   Feynman rule
+ FFAG
+   Fixed Field Alternating Gradient
+    b: accelerator
+    H: since Dec 07
+ fibre
+   fiber
+ fibre bundle
+   fiber bundle
+ field equations
+    h: /equations* of motion/
+ field strength
+    c: only for field theory
+ field theoretical model
+    i: core
+-field theory
+   QFT
+   quantum field
+    h: /field theor\w*/
+ fifth force
+    b: interaction
+    i: core
+ final focus
+    X: 'beam focusing, final focus', especially for linear colliders. See also 'beam focusing, colliding beams'
+-final state
+    r: intermediate state
+    r: initial state
+ final-state interaction
+   FSI
+    b: interaction
+ fine structure
+    r: hyperfine structure
+-finite
+ finite element
+ finite energy
+ finite size
+   finite volume
+    h: /finite[-\s]size/
+ finite temperature
+   thermofield
+    r: thermal
+ FINeSSE
+   FNAL-E-0937
+    b: Fermilab
+    i: core
+    d: FIne-grained Neutrino Scattering Scintillator Experiment
+ Finsler
+ FINUDA
+   FRASCATI-DAFNE-FINUDA
+    b: Frascati Stor
+    i: core
+    d: magnetic spectrometer at DAFNE
+ fireball
+ fission
+   spallation
+    r: dissociation
+    r: fragmentation
+ fixed point
+ flat direction
+ flavor
+    r: family
+    r: flavor changing
+ flavor changing
+    r: flavor
+    i: core
+ flow
+    r: flux
+ fluctuation
+    h: /fluctuat\w*/
+ fluid
+    r: liquid
+    c: only used for 'fluid: model'; otherwise use 'liquid'
+ fluorescence
+ fluorine
+ flux
+   emission rate
+    r: emission
+ flux tube
+    b: tube
+ FNAL-E-0921
+    b: Batavia TEVATRON Coll
+    i: core
+    d: Charged Kaons at the Main-Injector, also known as CKM
+ foam
+ Fock space
+    b: linear space
+ FOCUS
+   FNAL-E-0831
+    b: Batavia TEVATRON PS
+    i: core
+    d: Heavy quark states 
+ Fokker-Planck equation
+ Foldy-Wouthuysen transformation
+ FOPI
+   GSI-SIS-FOPI
+    b: Darmstadt SIS
+    i: core
+    d: Heavy ion collisions 
+-force
+ form factor
+    h: /form[\s-]*factor/
+    c: no specifier is used for electromagnetic form factor, otherwise 'form factor, electric' or 'form factor, magnetic'
+ formation
+    r: production
+-formula
+    r: numerical calculations
+ forward scattering
+    b: scattering
+    c: used only for zero-degree scattering, otherwise use 'small-angle'
+ forward spectrometer
+   forward detector
+   zero-degree calorimeter
+ four-fermion interaction
+    b: interaction
+    i: core
+ four-pi-detector
+    b: detector
+ Fourier transformation
+    b: transformation
+ FPGA
+   Field Programmable Gate Array
+    b: electronics
+ fractal
+    d: irregular structure with the same structure repeating on ever finer scales
+    H: fractals till jul 08
+ fractional
+ fragmentation
+    r: fission
+    c: for nuclei use 'fission'
+ fragmentation function
+    b: fragmentation
+ francium
+    b: elements
+ Frascati Stor
+   KLOE
+   DAFNE
+   DAPHNE
+    i: core
+    X: laboratory
+ free electron laser
+   FEL
+    r: SASE
+    r: undulator
+ free energy
+    b: energy
+ freeze-out
+ Frejus
+    b: deep underground detector
+    i: core
+-frequency
+ Friedman model
+   Friedmann equation
+    b: cosmological model
+ Froissart bound
+    i: core
+ functional analysis
+    r: analysis
+    b: mathematical methods
+ fundamental constant
+ fusion
+    r: capture
+ fuzzy
+    r: noncommutative
+ G0 Experiment
+   JLAB-E-00-006
+   JLAB-E-04-115-101
+   JLAB-E-05-008
+    b: Newport News CEBAF Linac
+    i: core
+ G parity
+    b: parity
+    i: core
+ G(2)
+ gadolinium
+    b: elements
+ galaxy
+    h: /galax\w+/
+    h: galactic
+ Galilei
+   Galilean
+ GALLEX
+    b: deep underground detector
+    i: core
+ gallium
+    b: elements
+ Galois
+ gamma ray
+   gamma-ray
+    r: photon
+    c: energy > 100 keV
+ GAMS
+    h: /GAMS\S*/
+    i: core
+    d: calorimeter at Serpukhov and CERN
+ gap
+ Garfield
+    r: magnetic field
+    b: numerical calculations
+ Garfinkle-Horowitz-Strominger
+ gas
+ gas electron multiplier
+   GEM
+    b: micro-pattern detector
+-gauge
+ gauge boson
+    r: intermediate boson
+    b: boson
+    i: core
+ gauge dependence
+    h: /gauge dependen\w+/
+ gauge field theory
+   gauge theory
+    h: /gauge theor\w*/
+    h: gauge field
+    b: field theory
+    i: core
+ gauge fixing
+    b: gauge
+ gaugino
+    b: sparticle
+    i: core
+ Gauss law
+ Gauss model
+ Gauss-Bonnet term
+   Einstein-Gauss-Bonnet
+   Gauss-Bonnet model
+    i: core
+ GEANT
+    b: Monte Carlo
+ Gell-Mann-Okubo
+    i: core
+ general relativity
+   GRT
+    h: /general[-\s]relativ\w+/
+    r: special relativity
+    b: relativity theory
+ generalized parton distribution
+   GPD
+    i: core
+ generalized uncertainty principle
+    b: uncertainty relations
+    i: core
+ GEO600
+    i: core
+ geodesic
+-geometrical
+    h: /geometric\w*/
+ geometry
+ geon
+    i: core
+ geophysics
+ Georgi-Glashow model
+    b: field theoretical model
+    i: core
+ Gepner model
+    b: field theoretical model
+    i: core
+ GERDA
+   Germanium detector array
+    b: Gran Sasso
+    i: core
+ germanium
+    b: elements
+ ghost
+    X: nonSM
+-giant
+ Ginsparg-Wilson relation
+    h: Ginsparg-Wilson
+    i: core
+ GL(N)
+ Glashow-Iliopoulos-Maiani model
+   GIM
+    b: field theoretical model
+    i: core
+ glasma
+    b: color glass condensate
+    i: core
+    d: strongly interacting, non-equilibrium state formed by colliding sheets of colored glass
+ glass
+    b: matter
+ GLAST
+   Gamma-ray Large Area Space Telescope
+   Fermi Gamma-ray Space Telescope
+ Glauber
+-global
+    r: nonlocal
+ glueball
+    r: gluon
+    r: multigluon
+    b: bound state
+    i: core
+ gluino
+    b: sparticle
+    i: core
+ gluon
+    r: glueball
+    r: multigluon
+    b: gauge boson
+    p: G021
+ gluon gluon
+ GNO
+    c: obsolete
+ Goedel
+ gold
+    b: elements
+ Goldstino
+    b: sparticle
+    i: core
+ Goldstone particle
+   pseudo-Goldstone
+   Nambu-Goldstone
+   Goldstone boson
+    h: PNGB
+    b: boson
+    i: core
+    X: nonSM
+ Goldstone theorem
+    i: core
+ Gottfried
+ Gowdy
+-gradient
+ Gran Sasso
+   LNGS
+    b: deep underground detector
+    i: core
+ grand unified theory
+   GUT
+    h: /grand unif\w*/
+    b: unified field theory
+    i: core
+    d: theory describing electromagnetism, weak and strong force as aspects of a single force
+ graph theory
+ graphene
+ graphics
+ Grassmann
+ gravastar
+   gravitational vacuum star
+    b: star
+ graviphoton
+    b: boson
+    i: core
+    X: nonSM
+ gravitation
+    h: /gravit\w+/
+    b: interaction
+ gravitational radiation
+   gravitational wave
+   gravity wave
+    h: /gravitational wave\w*/
+    b: gravitation
+    i: core
+ gravitational radiation detector
+   gravitational wave detector
+   GRD
+    i: core
+ gravitino
+    b: sparticle
+    i: core
+ graviton
+    b: gauge boson
+    p: G033
+    i: core
+ Grenoble ESRF
+   ESRF
+    X: 6 GeV positrons; synchrotron radiation
+ Gribov problem
+   Gribov ambiguity
+    h: /Gribov cop\w+/
+    i: core
+ Grid computing
+   EGEE
+   Grid
+   LCG
+    h: /Tier-\d/
+    r: network
+ Gromov-Witten theory
+ Gross-Neveu model
+    b: field theoretical model
+    i: core
+ ground state
+    r: excited state
+-group
+    b: group theory
+ group theory
+ GZK effect
+   GZK
+    i: core
+ H baryon
+   H-particle
+    b: baryon
+    i: core
+    d: di-Lambda
+ h/c(3526)
+    b: baryon
+    i: core
+    d: c anti-c
+-H1
+    b: DESY HERA Stor
+    i: core
+    d: magnetic detector at HERA
+ h1(1170)
+    b: baryon
+    i: core
+    H: H(1190)
+ h1(1380)
+    b: baryon
+    i: core
+ hadron
+   hadronic
+    r: hadronic
+    b: particle
+ hadron deuteron
+ hadron hadron
+   di hadron
+ hadron nucleon
+ hadron nucleus
+ hadron spectroscopy
+   hadron spectrum
+    i: core
+    X: not used for apparatus
+-hadronic
+    r: hadron
+ hadronic atom
+    r: hadronium
+    i: core
+ hadronic component
+    i: core
+ hadronic decay
+    b: decay
+    i: core
+    X: since 1996 also for nonleptonic decays
+ hadronium
+    r: hadronic atom
+    b: bound state
+    i: core
+ hadronization
+    i: core
+ hadroproduction
+    b: production
+    i: core
+    c: for particle produced in hadron interactions
+ hafnium
+    b: elements
+ Hagedorn
+ hair
+   hairy
+    d: no-hair theorem: a black hole is characerized fully by its mass, spin and charge
+ Hall effect
+ halo
+ Hamilton-Jacobi equation
+   HJE
+ Hamiltonian formalism
+   Hamiltonian approach
+    h: /Hamiltonian form\w*/
+    r: Lagrangian formalism
+    r: effective Hamiltonian
+ Hanbury-Brown-Twiss effect
+   HBT
+ HAPPEX
+   JLAB-E-00-114
+    b: Newport News CEBAF Linac 
+    i: core
+    d: Measurement of Nucleon Strange Form Factors at High Q2
+ hard scattering
+    r: constituent interchange
+    b: scattering
+ hard thermal loop approximation
+   HTLA
+    b: approximation
+    h: hard thermal loop
+    i: core
+ hardware
+-harmonic
+    X: e.g. 'analysis, harmonic'; not used for electomagnetic field multipoles
+ Hartree approximation
+    b: approximation
+ Hartree-Fock approximation
+    b: approximation
+-Hawking
+    X: e.g. 'radiation, Hawking'
+ heat engineering
+    r: cryogenics
+    c: for low temperatures use 'cryogenics'
+ heat kernel
+-heavy
+ heavy ion
+    b: ion
+    i: core
+ heavy lepton
+    b: lepton
+    i: core
+    X: nonSM
+ heavy liquid
+ Hecke
+ Heisenberg
+ Heisenberg model
+ helicity
+ helium
+   alpha particle
+   He-3
+   He-4
+    b: elements
+ HERA-B
+    b: DESY HERA Stor
+    i: core
+    d: magnetic detector at HERA
+ HERMES
+    b: DESY HERA Stor
+    i: core
+    d: magnetic spectrometer at HERA
+ HERWIG
+   herwig
+    b: Monte Carlo
+ HESS
+   H.E.S.S.
+    d: Atmospheric Cherenkov Telescopes for detection of very high energy gamma-rays
+ heterotic
+ hidden sector
+ hidden symmetry
+    b: symmetry
+ hidden variable
+    d: quantities that are part of a putative theory underlying quantum theory
+ hierarchy
+   hierarchical
+    r: mass spectrum
+-Higgs
+    r: Higgs model
+ Higgs mechanism
+    r: mass generation
+    r: Higgs model
+    i: core
+    H: since nov 08, was 'effect, Higgs'
+ Higgs model
+    r: Higgsless model
+    r: Higgs particle
+    r: Higgs mechanism
+    r: Higgs
+    b: field theoretical model
+    i: core
+ Higgs particle
+   Higgs boson
+    h: Higgses
+    r: Higgs model
+    b: boson
+    p: S055
+    i: core
+    X: nonSM
+ Higgsino
+    b: sparticle
+    i: core
+ Higgsless model
+    r: Higgs model
+    b: field theoretical model
+    i: core
+-high
+   higher
+    r: low
+ high energy behavior
+ high temperature expansion
+    r: low temperature expansion
+    b: expansion
+ higher-dimensional
+   higher dimension
+    h: /extra[\s-]*dimension\w*/
+    h: /multi[\s-]*dimension\w*/
+    r: any-dimensional
+    r: dimensional reduction
+    r: universal extra dimension
+    b: dimension
+ higher-order
+   next-to-leading order
+ higher-twist
+    r: twist
+ Hilbert space
+    b: linear space
+ history
+ hodoscope
+ hollow beam
+    r: beam profile
+ holmium
+    b: elements
+ holomorphic
+ holography
+    h: /hologra\w*/
+    d: The holographic principle states that the amount of information in a region is proportional not to its volume but to the area of its boundary
+ holonomy
+    b: topology
+ Homestake
+    b: deep underground detector
+    i: core
+ homology
+    r: cohomology
+ homotopy
+ Hopf
+    X: mostly 'algebra, Hopf'; see also 'algebra, deformation' and 'quantum group'
+ Hopf term
+ hopping parameter expansion
+    b: expansion
+    i: core
+ Horava-Lifshitz
+ Horava-Witten model
+    b: field theoretical model
+    i: core
+ horizon
+ horizontal symmetry
+    b: symmetry
+ HQET model
+   heavy quark effective theory
+    i: core
+ Hubbard model
+ Hubble constant
+   Hubble parameter
+   Hubble rate
+ hybrid
+ hydrodynamics
+    h: /hydrodynamic\w*/
+ hydrogen
+    r: antihydrogen
+    b: elements
+ hypercharge
+    b: charge
+    i: core
+ hypercolor
+    b: color
+    i: core
+ hyperfine structure
+   hyperfine splitting
+    r: fine structure
+ hypernucleus
+   strange nucleus
+   hyperfragment
+    h: /hypernucl\w+/
+    b: nucleus
+    b: strangeness
+    i: core
+ hyperon
+   strange baryon
+    r: antihyperon
+    b: baryon
+    b: strangeness
+    i: core
+ hyperon hyperon
+ hyperon nucleus
+ hyperonic atom
+    b: atom
+    b: strangeness
+    i: core
+ hyperphoton
+    b: boson
+    i: core
+    X: nonSM
+ ice
+    b: matter
+ IceCube
+    r: AMANDA
+    b: deep underground detector
+    i: core
+ Iizuka-Okubo-Zweig rule
+   OZI rule
+   Okubo-Zweig-Iizuka
+    i: core
+ ILC Coll
+   International Linear Collider
+    h: ILC
+    i: core
+ imaging
+    r: time projection
+ IMB
+    b: deep underground detector
+ Immirzi parameter
+   Barbero-Immirzi parameter
+    i: core
+ impact parameter
+   central collision
+    r: path length
+    c: for track data analysis see also 'path length'
+ impedance
+ impulse approximation
+    b: approximation
+ inclusive production
+ inclusive reaction
+    r: semi-inclusive reaction
+    b: interaction
+ incoherent interaction
+    r: decoherence
+    b: interaction
+ indefinite metric
+    i: core
+ index theorem
+ indium
+    b: elements
+-induced
+    c: use 'induction' for classical electromagnetism
+ induction
+ inelastic scattering
+   quasielastic scattering
+    r: elastic scattering
+    b: scattering
+-infinite
+ inflation
+    h: /inflation\w+/
+    H: until Jul 08 'inflationary universe'
+ inflaton
+    b: inflation
+    i: core
+    X: nonSM
+ information management
+    r: publishing
+ information theory
+   information loss
+   information paradox
+   information puzzle
+   records theory
+ infrared
+    r: ultraviolet
+ infrared problem
+    h: /infrared[-\s]diverg\w+/
+    i: core
+ initial state
+    r: final state
+ initial-state interaction
+    b: interaction
+    b: initial state
+ injection
+ inorganic compounds
+ instanton
+   D-instanton
+    r: monopole
+    i: core
+    X: nonSM
+ insulation
+ integrability
+    h: /integrabl\w*/
+ integral equations
+    r: differential equations
+ integrated circuit
+   ASIC
+    r: semiconductor
+-interaction
+    h: /interact\w+/
+    c: restricted use, if possible use more specific term
+ interface
+ interference
+    r: mixing
+    c: between different processes (paths) leading from the same initial state to the same final state
+ interferometer
+    h: /interferomete*r\w*/
+ intermediate boson
+    r: gauge boson
+    b: boson
+    i: core
+ intermediate state
+    r: final state
+ intermittency
+    h: /intermitten\w*/
+-internal
+ interpretation of experiments
+ intranuclear cascade
+    b: cascade
+ introductory
+    c: restricted use
+-invariance
+    r: covariance
+    r: symmetry
+-inverse
+ inverse scattering method
+   ISM
+    b: scattering
+ invisible decay
+    i: core
+    H: since dec 08
+ iodine
+    b: elements
+ ion
+    b: atom
+ ionization
+   reionization
+ ionization chamber
+   gaseous detector
+ iridium
+    b: elements
+ iron
+   steel
+    b: elements
+ irradiation
+ Isgur-Wise function
+    i: core
+ Ising model
+ ISO(2,1)
+ isobar model
+    c: for the nucleon isobar use 'nucleon resonance'
+ isoscalar
+    r: isovector
+ isospin
+ isovector
+    r: isoscalar
+ J-PARC Lab
+   J-PARC
+   Japan Proton Accelerator Complex
+   T2K
+ J/psi(3100)
+   J/psi
+   psi(3100)
+    b: meson
+    i: core
+ Jacobi identity
+ JADE
+    b: DESY PETRA Stor
+    i: core
+    d: magnetic detector at PETRA
+ Jefferson Lab
+   JLab
+    d: for unspecified experiments at JLAB
+    X: laboratory
+-jet
+ Jona-Lasinio-Nambu model
+   JLN
+   NJL
+   PNJL
+    h: /Nambu[- ]*Jona[- ]*Lasinio/
+    b: field theoretical model
+    i: core
+ Jones polynomial
+ Jordan
+ Juelich COSY PS
+   COSY
+   COSY-11
+    i: core
+    X: 2.5 GeV protons, ions
+-K
+   kaon
+    r: anti-K
+    b: strange meson
+ K anti-K
+ K deuteron
+ K K
+ K n
+ K nucleon
+ K nucleus
+ K p
+ K(1460)
+    b: meson
+    i: core
+ K(1830)
+    b: meson
+    i: core
+ K(3100)
+    b: meson
+    i: core
+ K*(1410)
+    b: meson
+    i: core
+    H: K*(1370), earlier K*(1410)
+ K*(1680)
+    b: meson
+    i: core
+-K*(892)
+   K*
+    b: meson
+    i: core
+ K*0(1430)
+    b: meson
+    i: core
+    H: kappa(1350)
+ K*0(1950)
+    b: meson
+    i: core
+ K*2(1430)
+    b: meson
+    i: core
+    H: K*(1430)
+ K*2(1980)
+    b: meson
+    i: core
+ K*3(1780)
+    b: meson
+    i: core
+    H: K*(1780)
+ K*4(2045)
+    b: meson
+    i: core
+    H: K*(2060)
+ K*5(2380)
+    b: meson
+    i: core
+-K+
+    b: K
+    i: core
+ K+ deuteron
+ K+ K-
+ K+ n
+ K+ nucleon
+ K+ nucleus
+ K+ p
+-K-
+    b: K
+    i: core
+ K- deuteron
+ K- n
+ K- nucleon
+ K- nucleus
+ K- p
+ k-essence
+    i: core
+ K-theory
+-K0
+    b: K
+    i: core
+ K0 anti-K0
+ K0 deuteron
+ K0 n
+ K0 nucleon
+ K0 nucleus
+ K0 p
+ K0(L)
+   K(L)
+    b: K0
+    i: core
+ K0(S)
+   K(S)
+    b: K0
+    i: core
+ K1(1270)
+    b: meson
+    i: core
+    H: Q1(1280)
+ K1(1400)
+    b: meson
+    i: core
+    H: Q2(1400)
+ K1(1650)
+    b: meson
+    i: core
+ K2(1580)
+    b: meson
+    i: core
+    H: L(1580)
+ K2(1770)
+    b: meson
+    i: core
+    H: L(1770)
+ K2(1820)
+    b: meson
+    i: core
+ K2(2250)
+    b: meson
+    i: core
+    H: K(2200)
+ K3(2320)
+    b: meson
+    i: core
+ K4(2500)
+    b: meson
+    i: core
+ Kac-Moody
+ Kadanoff-Baym equation
+ Kadomtsev-Petviashvili equation
+ Kaehler
+   Kahler
+   hyperKaehler
+ Kaluza-Klein
+    r: Kaluza-Klein model
+    i: core
+ Kaluza-Klein model
+   Kaluza-Klein theory
+    h: KK model
+    r: Kaluza-Klein
+    b: field theoretical model
+    i: core
+ KAMIOKANDE
+   Super-Kamiokande
+   K2K
+   T2K
+    b: deep underground detector
+    i: core
+ KamLAND
+    i: core
+ Kantowski-Sachs
+ kappa meson
+    b: meson
+    i: core
+ kappa symmetry
+    b: symmetry
+ Kasner
+ Kazakov-Migdal model
+    i: core
+ KEDR
+    b: Novosibirsk Stor4
+    i: core
+    d: magnetic detector at Novosibirsk Stor4
+ KEK JHP PS
+   JHP
+    b: KEK Lab
+    d: hadron factory, 50 GeV protons
+ KEK Lab
+   K2K
+    d: for unspecified accelerators at KEK
+    X: laboratory
+ KEK Linac
+    b: KEK Lab
+    i: core
+    d: 2.5 GeV electrons
+ KEK PF Stor
+   KEK PF
+    b: KEK Lab
+    i: core
+    d: 2.5/8.0 GeV electrons, synchrotron radiation
+ KEK PS
+    b: KEK Lab
+    i: core
+    d: 12 GeV protons
+ KEK TRISTAN Stor
+   TRISTAN
+    r: KEK-B
+    b: KEK Lab
+    i: core
+    d: 60 GeV-cms e+e-
+ KEK-B
+    r: KEK TRISTAN Stor
+    b: B-factory
+    i: core
+ Kerr
+ Kerr-Newman
+ Kerr-NUT
+ Kharkov Linac
+    d: 2 GeV electrons, 0.4 GeV protons
+ Killing
+ Killing-Yano
+ kinematics
+    h: /kinematic\w*/
+ kinetic
+ kink
+ Klein-Gordon equation
+   KGE
+    b: field equations
+ KLOE
+    b: Frascati Stor
+    i: core
+    d: magnetic detector at DAFNE
+ Knizhnik-Zamolodchikov equation
+ KNO
+   Koba-Nielsen-Olesen
+ knot theory
+   knot invariant
+ Kobayashi-Maskawa model
+    i: core
+ Kodama state
+    H: since 2008
+ Kolar Gold Fields
+   KGF
+    b: deep underground detector
+ Kontsevich model
+ Korteweg-de Vries equation
+   KdV
+   mKdV
+ Krichever-Novikov
+    X: algebra, Krichever-Novikov
+ krypton
+    b: elements
+ KTeV
+    b: Fermilab
+    i: core
+    d: magnetic detector at Fermilab
+-L3
+    b: CERN LEP Stor
+    i: core
+    d: magnetic detector at LEP
+ LSND
+   LAMPF-1173
+    b: LAMPF Linac
+    i: core
+    d: search for anti-neutrino/mu --> anti-neutrino/e oscillations
+ ladder approximation
+    b: approximation
+ Lagrangian formalism
+    r: Hamiltonian formalism
+    X: see also 'effective Lagrangian' and 'field theory, Euclidean'
+-Lambda
+    r: Antilambda
+    b: hyperon
+    i: core
+ Lambda deuteron
+ Lambda Lambda
+ Lambda nucleus
+ Lambda parameter
+    X: e.g. 'gauge field theory, Lambda parameter'
+ Lambda(1405)
+    b: hyperon
+    i: core
+    c: partial wave S01
+ Lambda(1520)
+    b: hyperon
+    i: core
+    c: partial wave D03
+ Lambda(1600)
+    b: hyperon
+    i: core
+    c: partial wave P01
+ Lambda(1670)
+    b: hyperon
+    i: core
+    c: partial wave S01
+ Lambda(1690)
+    b: hyperon
+    i: core
+    c: partial wave D03
+ Lambda(1800)
+    b: hyperon
+    i: core
+    c: partial wave S01
+ Lambda(1810)
+    b: hyperon
+    i: core
+    c: partial wave P01
+ Lambda(1820)
+    b: hyperon
+    i: core
+    c: partial wave F05
+ Lambda(1830)
+    b: hyperon
+    i: core
+    c: partial wave D05
+ Lambda(1890)
+    b: hyperon
+    i: core
+    c: partial wave P03
+ Lambda(2000)
+    b: hyperon
+    i: core
+ Lambda(2020)
+    b: hyperon
+    i: core
+    c: partial wave F07
+ Lambda(2100)
+    b: hyperon
+    i: core
+    c: partial wave G07
+ Lambda(2110)
+    b: hyperon
+    i: core
+    c: partial wave F05
+ Lambda(2325)
+    b: hyperon
+    i: core
+    c: partial wave D03
+ Lambda(2350)
+    b: hyperon
+    i: core
+    c: partial wave H09
+ Lambda(2585)
+    b: hyperon
+    i: core
+-Lambda/b0
+   Lambda/b
+    r: Antilambda/b0
+    b: baryon
+    i: core
+    c: mass 5640
+ Lambda/c(2593)
+    b: Lambda/c+
+    i: core
+    c: ground state of Lambda/c(2625) ?
+ Lambda/c(2625)
+    b: Lambda/c+
+    i: core
+ Lambda/c(2765)
+    b: Lambda/c+
+    i: core
+ Lambda/c(2880)
+    b: Lambda/c+
+    i: core
+-Lambda/c+
+   Lambda/c
+    r: Antilambda/c+
+    b: charmed baryon
+    i: core
+ LAMPF Linac
+   LAMPF
+    b: Los Alamos Lab
+    d: meson factory, 0.8 GeV protons
+ Landau gauge
+    b: gauge
+ Landau-Ginzburg model
+   LG model
+   Ginzburg-Landau model
+   Ginzburg-Landau theory
+ Landau-Pomeranchuk-Migdal effect
+   LPM effect
+    i: core
+ landscape
+    d: possible shapes of the hidden dimensions of space each corresponding to a different set of particles and forces in 3d space
+ Langevin equation
+ lanthanum
+    b: elements
+ Laplace
+ Laplace gauge
+    b: gauge
+ Laplace transformation
+    b: transformation
+ laser
+ LASS
+    d: magnetic spectrometer at SLAC Linac
+ lattice
+    r: lattice field theory
+ lattice field theory
+    h: lattice QCD
+    h: lattice quantum chromodynamics
+    h: LQCD
+    h: lattice gauge theory
+    r: lattice
+    b: field theory
+    i: core
+ lawrencium
+    b: elements
+ Lax
+-lead
+    b: elements
+ lead-glass
+ leading logarithm approximation
+    b: approximation
+ leading particle
+    r: particle
+ lectures
+ Lee-Wick model
+   Lee-Wick
+    i: core
+ left-handed
+    r: right-handed
+ left-right
+ Legendre transformation
+    b: transformation
+-length
+    X: 'fundamental constant, length' or 'correlation, length'; see also 'scattering length', 'path length'
+ lens
+    h: lensing
+ leptogenesis
+    i: core
+ leptogluon
+    X: nonSM
+ lepton
+    r: antilepton
+    r: dilepton
+    r: bilepton
+    b: fermion
+ lepton antilepton
+ lepton baryon
+ lepton deuteron
+ lepton hadron
+ lepton K
+ lepton lepton
+ lepton n
+ lepton nucleon
+ lepton nucleus
+ lepton number
+    r: baryon number
+    r: B-L number
+ lepton p
+ lepton quark
+ lepton+
+    b: lepton
+    i: core
+ lepton-
+    b: lepton
+    i: core
+-leptonic
+ leptonic decay
+    b: decay
+ leptoproduction
+    b: production
+    i: core
+    c: for particle production by electrons, muons or neutrinos
+ leptoquark
+    b: boson
+    i: core
+    X: nonSM
+ LHC-B
+   LHCb
+    b: CERN LHC Coll
+    i: core
+    d: magnetic detector at LHC
+ LHC-F
+   LHCf
+    b: CERN LHC Coll
+    i: core
+    d: magnetic detector at LHC
+ LHeC
+   CERN-LHeC
+    b: CERN Lab
+    i: core
+    d: proposed colliding beam facility at CERN
+ Lie
+ lifetime
+    r: decay constant
+ light cone
+    r: on-shell
+ light cone behavior
+    i: core
+ light cone gauge
+    h: light-cone gauge
+    b: gauge
+    i: core
+ light front
+    h: /light[-\s]*front/
+ light nucleus
+    b: nucleus
+    c: up to mass number 20 (incl.)
+ LIGO
+   Laser Interferometer Gravitational wave Observatory
+    b: gravitational radiation detector
+    i: core
+ linac-ring collider
+    i: core
+-linear
+    h: /linear\w*/
+    r: nonlinear
+ linear accelerator
+   linac
+    b: accelerator
+ linear collider
+    b: linear accelerator
+ linear space
+ Liouville
+ Lipatov equation
+    i: core
+ Lippmann-Schwinger equation
+    i: core
+ liquid
+    r: fluid
+ liquid argon
+   LAr
+    r: argon
+ LISA
+   Laser Interferometer Space Antenna
+    d: gravitational wave detector
+ lithium
+    b: elements
+ little Higgs model
+   little Higgs
+    b: Higgs model
+    i: core
+ littlest Higgs model
+    b: Higgs model
+    i: core
+-local
+    r: nonlocal
+    c: restricted use, for local supersymmetry use 'supergravity'
+ localization
+    r: delocalization
+ logic
+    c: mathematics only; for electronics use 'fast logic'
+ long-range
+ longitudinal
+    r: transverse
+ longitudinal momentum
+    r: transverse momentum
+    b: momentum
+ loop space
+ Lorentz
+    r: Poincare
+ Lorentz gauge
+    b: gauge
+ Los Alamos Lab
+    d: for unspecified accelerators at LANL
+    X: laboratory
+-loss
+ Lovelock
+    b: gravitation
+-low
+    r: high
+ low temperature expansion
+    r: high temperature expansion
+    b: expansion
+ low-energy constant
+ low-energy theorem
+-lower limit
+ LSP
+    b: sparticle
+    i: core
+    d: lightest supersymmetric particle
+-luminosity
+ lunar
+   moon
+ Lund MAX Stor
+    X: 0.55/1.5 GeV electrons
+ lutetium
+    b: elements
+ Lyra
+ M-brane
+    b: membrane model
+    i: core
+    H: since dec 08
+ M-theory
+    h: /M[-\s]?theory/ 
+    i: core
+ Mach principle
+ MACHO
+    X: nonSM
+ MACRO
+    d: deep underground detector
+ magnesium
+    b: elements
+ magnet
+-magnetic
+ magnetic detector
+    r: magnetic spectrometer
+    c: For small-angle detectors see also 'magnetic spectrometer'
+ magnetic field
+ magnetic moment
+   gyromagnetic ratio
+    h: /g-2/
+ magnetic monopole
+    b: particle
+    b: monopole
+    i: core
+    X: nonSM
+ magnetic spectrometer
+    r: magnetic detector
+ magnetostatic
+ magnetization
+ magnon
+ MAINZ-A1
+    b: Mainz Linac
+ MAINZ-A2
+    b: Mainz Linac
+ Mainz Linac
+   MAMI
+    X: 0.35/0.85 GeV electrons
+ Majorana
+ Majoron
+    b: Goldstone particle
+    i: core
+ manganese
+ manual
+ many-body problem
+   N-body
+   N-particle
+    h: many-body
+    r: few-body problem
+    r: three-body problem
+-marginal
+ MARK II
+    b: SLAC SLC Linac
+    d: magnetic detector at PEP and SLC
+ MARK III
+    b: SLAC SPEAR Stor
+    d: magnetic detector at SPEAR
+-mass
+    h: masses
+ mass dependence
+ mass difference
+   mass splitting
+    b: difference
+ mass enhancement
+    b: enhancement
+ mass formula
+    b: formula
+ mass generation
+    r: Higgs mechanism
+    i: core
+ mass number
+   atomic number
+ mass ratio
+    b: ratio
+ mass resolution
+    H: since Aug 07
+ mass spectrum
+   mass distribution
+    r: hierarchy
+-massive
+   supermassive
+-massless
+ master equation
+ master integral
+    H: since Dec 08
+ mathematical methods
+-matrix
+    H: since Dec 07
+ matrix model
+   matrix theory
+-matter
+    r: antimatter
+ maximal abelian gauge
+   MAG
+    b: gauge
+    i: core
+ Maxwell equation
+    b: field equations
+ mean field approximation
+   MFA
+    h: /mean field/
+    b: approximation
+-measure
+    c: only in mathematical sense, e.g. 'path integral: measure'
+ measurement methods
+    r: monitoring
+ measurement theory
+   quantum measurement
+   measurement problem
+ mechanical engineering
+    b: engineering
+ mechanics
+ mediation
+    h: /mediat\w+/
+ medicine
+   medical
+    H: since Dec 07
+ Meissner effect
+ Mellin transformation
+ Melvin
+ membrane
+    r: membrane model
+ membrane model
+   brane
+   braneworld
+    r: membrane
+    b: field theoretical model
+    i: core
+ mendelevium
+    b: elements
+ mercury
+    b: elements
+ meron
+    i: core
+    X: nonSM
+ mesic atom
+    b: atom
+    i: core
+ meson
+    b: hadron
+ meson baryon
+ meson deuteron
+ meson dominance
+    r: vector dominance
+    c: used for scalar, pseudoscalar and tensor mesons
+ meson meson
+   di meson
+ meson n
+ meson nucleon
+ meson nucleus
+ meson p
+ meson quark
+ meson resonance
+    b: meson
+    i: core
+ messenger
+ metal
+    b: matter
+ metric
+ Michel parameter
+    i: core
+ micro-pattern detector
+   MPGD
+    h: /micro[-\s]*pattern [gaseous]* detector/
+ Micromegas
+    b: micro-pattern detector
+ microprocessor
+ microstrip
+ microtron
+ microwaves
+ Milan Cycl
+    X: 0.8 GeV/A ions
+ Milne
+ MIMAC
+    d: dark matter detector
+ mineral
+    b: matter
+ minijet
+    b: jet
+    i: core
+-minimal
+   minimum
+    r: nonminimal
+    c: for field theoretical models
+ minimal supersymmetric standard model
+   MSSM
+   NMSSM
+    b: standard model: supersymmetry
+    i: core
+ minisuperspace
+    i: core
+ Minkowski
+ MINOS
+    b: deep underground detector
+    i: core
+ mirror
+    X: e.g. 'symmetry, mirror', see also 'parity'
+ mirror particle
+    b: particle
+    i: core
+    X: nonSM
+ Misner
+ missing-energy
+ missing-mass
+ MIT Linac
+   Bates Linac
+ Miura transformation
+ mixing
+    r: interference
+    H: interference
+ mixing angle
+    r: CKM matrix
+    b: mixing
+-model
+ modular
+ modulation
+    r: oscillation
+ moduli
+    r: moduli space
+ moduli space
+    r: moduli
+-molecule
+    b: bound state
+ molybdenum
+    b: elements
+ moment
+-momentum
+ momentum dependence
+ momentum resolution
+    b: resolution
+ momentum spectrum
+   momentum distribution
+ momentum transfer
+ momentum transfer dependence
+ MOND
+    b: gravitation
+ monitoring
+    r: measurement methods
+ monochromatic beam
+ monodromy
+ monopole
+    r: soliton
+    r: instanton
+    b: particle
+ Mont Blanc
+    b: deep underground detector
+ Monte Carlo
+   event generator
+    b: numerical calculations
+ moose
+ Morita equivalence
+ Morse theory
+ Moscow ES
+    X: 0.45/2.5 GeV electrons; synchrotron radiation
+ Moscow ITEF PS
+    X: 10 GeV protons, 9 GeV/A ions
+-Moyal
+ Moyal product
+ MSW effect
+   MSW
+    i: core
+ mu-problem
+   mu-term
+   mu-parameter
+ multi-Regge
+    b: Regge
+    i: core
+ multibaryon
+    r: baryon
+    b: bound state
+    i: core
+ multigluon
+   N-gluon
+   gluelump
+    r: gluon
+    r: glueball
+    b: bound state
+    i: core
+ multiperipheral
+    r: peripheral
+-multiple
+ multiple field
+    b: multiple
+ multiple production
+    h: multiparticle production
+    h: multiproduction
+    b: production
+ multiple scattering
+    b: scattering
+ multiplet
+ multiplicity
+ multipole
+    X: e.g. 'partial wave analysis, multipole' or 'magnetic moment, multipole' or 'magnetic field, multipole'. For magnet use 'quadrupole lens, special focusing'
+ multiprocessor
+    b: computer
+    X: e.g. 'microprocessor, multiprocessor'
+ multiquark
+    r: quark
+    b: bound state
+    b: hadron
+    i: core
+ multiverse
+    i: core
+ muon
+    r: muonic atom
+    r: dimuon
+    r: muonium
+    b: lepton
+ muon deuteron
+ muon hadron
+ muon n
+ muon nucleon
+ muon nucleus
+ muon number
+ muon p
+ muon tau
+ muon+
+    b: muon
+    i: core
+ muon+ deuteron
+ muon+ muon+
+ muon+ muon-
+ muon+ n
+ muon+ nucleon
+ muon+ nucleus
+ muon+ p
+ muon-
+    b: muon
+    i: core
+ muon- deuteron
+ muon- muon-
+ muon- n
+ muon- nucleon
+ muon- nucleus
+ muon- p
+ muonic atom
+    r: muon
+    b: atom
+    i: core
+    X: atom, muonic atom
+ muonium
+    r: muon
+    b: bound state
+    i: core
+-n
+   neutron
+    r: anti-n
+    b: nucleon
+    b: baryon
+ n anti-n
+ n deuteron
+ n Lambda
+-n n
+ n nucleus
+ n Sigma
+ N(1440)
+   Roper resonance
+    b: nucleon resonance
+    i: core
+    c: partial wave P11
+ N(1520)
+    b: nucleon resonance
+    i: core
+    c: partial wave D13
+ N(1535)
+    b: nucleon resonance
+    i: core
+    c: partial wave S11
+ N(1650)
+    b: nucleon resonance
+    i: core
+    c: partial wave S11
+ N(1675)
+    b: nucleon resonance
+    i: core
+    c: partial wave D15
+ N(1680)
+    b: nucleon resonance
+    i: core
+    c: partial wave F15
+ N(1700)
+    b: nucleon resonance
+    i: core
+    c: partial wave D13
+ N(1710)
+    b: nucleon resonance
+    i: core
+    c: partial wave P11
+ N(1720)
+    b: nucleon resonance
+    i: core
+    c: partial wave P13
+ N(1900)
+    b: nucleon resonance
+    i: core
+    c: partial wave P13
+ N(1990)
+    b: nucleon resonance
+    i: core
+    c: partial wave F17
+ N(2000)
+    b: nucleon resonance
+    i: core
+    c: partial wave F15
+ N(2080)
+    b: nucleon resonance
+    i: core
+    c: partial wave D13
+ N(2090)
+    b: nucleon resonance
+    i: core
+    c: partial wave S11
+ N(2100)
+    b: nucleon resonance
+    i: core
+    c: partial wave P11
+ N(2190)
+    b: nucleon resonance
+    i: core
+    c: partial wave G17
+ N(2200)
+    b: nucleon resonance
+    i: core
+    c: partial wave D15
+ N(2220)
+    b: nucleon resonance
+    i: core
+    c: partial wave H19
+ N(2250)
+    b: nucleon resonance
+    i: core
+    c: partial wave G19
+ N(2600)
+    b: nucleon resonance
+    i: core
+    c: partial wave I111
+ N(2700)
+    b: nucleon resonance
+    i: core
+    c: partial wave K113
+ NA48
+    b: CERN SPS Coll
+    i: core
+    d: K+ K- Decays
+ n-point function
+    r: correlation function
+ Nahm equation
+    i: core
+ Nahm transformation
+    i: core
+ narrow resonance
+ near detector
+    b: neutrino: detector
+-negative
+ negative particle
+    b: charged particle
+ neodymium
+    b: elements
+ neon
+    b: elements
+ neptunium
+    b: elements
+ NESTOR
+    d: deep underground detector
+ network
+    r: communications
+    r: neural network
+    r: Grid computing
+ neural network
+    r: network
+ neutral current
+    b: current
+    i: core
+    c: for weak currents; otherwise see e.g. 'exchange, one-photon'
+ neutral particle
+    r: charged particle
+    b: particle
+ neutralino
+    r: chargino
+    b: sparticle
+    i: core
+ neutralino nucleon
+ neutralino nucleus
+ neutralino p
+-neutrino
+    r: sterile
+    r: antineutrino
+    b: lepton
+    i: core
+ neutrino antineutrino
+ neutrino deuteron
+ neutrino electron
+ neutrino hadron
+ neutrino lepton
+ neutrino muon
+ neutrino n
+ neutrino neutrino
+ neutrino nucleon
+ neutrino nucleus
+ neutrino p
+ neutrino pi
+ neutrino quark
+-neutrino/e
+   nu/e
+    b: neutrino
+    i: core
+ neutrino/L
+    b: neutrino
+    i: core
+    d: heavy lepton neutrino
+    X: nonSM
+-neutrino/mu
+   nu/mu
+    b: neutrino
+    i: core
+-neutrino/tau
+   nu/tau
+    b: neutrino
+    i: core
+ neutrinoless
+    s: (0neutrino)
+    i: core
+ neutrinoproduction
+    b: leptoproduction
+    b: production
+    i: core
+    c: used for production by neutrinos or antineutrinos
+ neutron star
+    r: protoneutron star
+    H: 'n, matter'
+ new interaction
+    b: interaction
+ new particle
+    b: particle
+ new physics
+   beyond the Standard Model
+    H: since Dec 08
+ Newport News CEBAF Linac
+   CEBAF
+    b: Jefferson Lab
+    i: core
+    X: 4 GeV electrons
+ nickel
+    b: elements
+ Nicolai map
+    b: transformation
+ niobium
+    b: elements
+ nitrogen
+    b: elements
+ NLSP
+    i: core
+ nobelium
+    b: elements
+ Noether
+ noise
+    r: background
+    c: restricted use
+ NOMAD
+    i: core
+    d: at SPS
+ non-Gaussianity
+    h: /non[-\s]*[Gg]aussian\w*/
+    c: provisorisch
+    H: Apr 08
+ nonabelian
+    c: not used together with 'gauge field theory, Yang-Mills'
+ noncommutative
+    h: /non[-\s]*commutativ\w*/
+    r: fuzzy
+ noncompact
+ nondiffractive
+    r: diffraction
+ nonlinear
+    r: linear
+ nonlocal
+    r: local
+    r: global
+ nonminimal
+    r: minimal
+ nonperturbative
+   non-perturbative
+    r: perturbation theory
+ nonpolynomial
+ nonrelativistic
+    r: relativistic
+ nonrenormalizable
+ Novosibirsk Lab
+    d: for unspecified accelerators at Novosibirsk
+    X: laboratory
+ Novosibirsk Stor2
+   VEPP-2
+    b: Novosibirsk Lab
+    i: core
+ Novosibirsk Stor3
+   VEPP-3
+    b: Novosibirsk Lab
+    i: core
+ Novosibirsk Stor4
+   VEPP-4
+   VEPP-4M
+    b: Novosibirsk Lab
+    i: core
+ Novosibirsk VEPP-2000
+   VEPP-2000
+   VEPP-2M
+    b: Novosibirsk Lab
+    i: core
+ nuclear emulsion
+   emulsion chamber
+ nuclear force
+ nuclear matter
+   nuclear medium
+    b: matter
+ nuclear medicine
+   hadron therapy
+    b: medicine
+ nuclear model
+ nuclear physics
+ nuclear properties
+ nuclear reaction
+    b: interaction
+ nuclear reactor
+   reactor
+ nucleation
+ nucleon
+    b: baryon
+ nucleon antinucleon
+ nucleon deuteron
+ nucleon hyperon
+ nucleon Lambda
+ nucleon n
+ nucleon nucleon
+   two-nucleon
+ nucleon nucleus
+ nucleon quark
+ nucleon resonance
+    b: baryon resonance
+    i: core
+ nucleon Sigma
+ nucleosynthesis
+ nucleus
+   nuclei
+   nuclear
+    r: antinucleus
+    b: bound state
+ nucleus nucleus
+ nuclide
+    r: radioactivity
+    b: nucleus
+    b: elements
+ null-energy condition
+   NEC
+ number theory
+ numerical calculations
+    h: numerical computation
+    h: numerical solution
+    h: numerical result
+    r: formula
+ numerical methods
+ NUSEX
+    b: deep underground detector
+    i: core
+ O(2)
+ O(3)
+ O(4)
+ O(N)
+ O(N,N)
+ Oak Ridge SNS PS
+   SNS
+ oblique
+ observatory
+    b: detector
+    c: astronomical observatory
+    H: since Apr 08
+-octet
+ octonion
+    r: quaternion
+ odderon
+    b: particle
+    i: core
+    X: nonSM
+ off-line
+    X: e.g. 'trigger, off-line'
+ off-shell
+ OMEGA
+    b: CERN SPS Coll
+    d: magnetic detector at CERN SPS
+ omega(1390)
+    b: meson
+    i: core
+ omega(1600)
+    b: meson
+    i: core
+ omega(1650)
+    b: meson
+    i: core
+ Omega(2250)
+    b: hyperon
+    i: core
+ Omega(2380)
+    b: hyperon
+    i: core
+ Omega(2470)
+    b: hyperon
+    i: core
+ omega(783)
+    b: meson
+    i: core
+-Omega-
+    r: Antiomega-
+    b: hyperon
+    i: core
+-Omega/b
+    b: baryon
+    i: core
+ Omega/c0
+    b: baryon
+    i: core
+    X: mass 2740, was T0
+ omega3(1670)
+    b: meson
+    i: core
+    H: omega(1670)
+ on-line
+    X: e.g. 'computer, on-line'
+-on-shell
+    r: light cone
+ one-boson
+    b: boson
+ one-meson
+    b: meson
+ one-particle
+    b: particle
+ one-photon
+    b: photon
+ one-pion
+    b: pi
+ opacity
+ OPAL
+    b: CERN LEP Stor
+    i: core
+    d: magnetic detector at LEP
+-open
+    r: closed
+-operator
+ operator product expansion
+    b: expansion
+ optical
+ optical theorem
+ optics
+ orbifold
+ orbit
+ organic compounds
+ orientifold
+ Orsay Lab
+   LURE
+    d: for unspecified accelerators at LAL
+    X: laboratory
+ Orsay Stor
+    b: Orsay Lab
+    d: DCI, 7.2 GeV-cms e+e-
+ oscillation
+    h: oscillating
+    r: oscillator
+    r: modulation
+    r: mixing
+ oscillator
+    r: oscillation
+ osmium
+    b: elements
+ OSp(N,M)
+ overlap
+ oxygen
+    b: elements
+-p
+   proton
+    r: anti-p
+    b: nucleon
+    b: baryon
+ p anti-n
+ p antinucleon
+   proton antinucleon
+ p baryon
+   proton baryon
+ p deuteron
+   proton deuteron
+ p hyperon
+   proton hyperon
+ p Lambda
+   proton Lambda
+ p n
+   proton neutron
+ p nucleon
+   proton nucleon
+ p nucleus
+   proton nucleus
+ p Omega-
+-p p
+   proton proton
+ p Sigma
+ p Sigma+
+ p Sigma-
+ p Sigma0
+ p Xi
+ p Xi-
+ p Xi0
+ p-adic
+ p-brane
+    b: membrane model
+    i: core
+ Pade approximation
+    h: /Pade approx\w+/
+    b: approximation
+-pair
+   pairing
+    r: doublet
+ pair production
+   pair creation
+    b: production
+ Palatini model
+    b: gravitation: model
+ palladium
+    b: elements
+ PAMELA
+    b: satellite
+    i: core
+    H: since Oct 08
+-parameter space
+ parametric
+    r: parametrization
+ parametrization
+    h: /paramete*ri[zs]ation/
+    r: parametric
+ paraphoton
+    i: core
+    X: nonSM
+ parastatistics
+    b: statistics
+ parity
+ partial wave
+    r: angular momentum
+ partial wave analysis
+    r: amplitude analysis
+    b: partial wave
+-particle
+    r: antiparticle
+    r: leading particle
+    b: matter
+ particle antiparticle
+ particle flow
+ particle identification
+   PID
+ particle number
+-particle physics
+   high energy physics
+    i: core
+    c: restricted use
+ particle separator
+   separator
+    r: separated beam
+ particle source
+   factory
+    X: for accelerators and cosmic radiation
+ partition function
+ parton
+    b: particle
+    i: core
+ parton hadron
+ path integral
+   Feynman path
+ path length
+   free path
+   mean free path
+    r: impact parameter
+ Pati-Salam model
+    i: core
+ Pauli principle
+    X: see also 'fermion, statistics'
+ Pauli-Villars
+ PCAC model
+   PCAC
+   partially conserved axial-vector current
+    r: CVC model
+    b: current algebra
+ Peccei-Quinn
+    i: core
+ penguin
+ Penner model
+    H: since Jul 08
+ Penning trap
+ Penrose limit
+ pentaquark
+    b: multiquark
+    i: core
+ percolation
+    r: chaos
+ performance
+ peripheral
+   ultraperipheral
+    r: multiperipheral
+ perturbation
+    X: see also 'defect', 'difference', 'error', 'fluctuation'
+ perturbation theory
+    r: nonperturbative
+ phantom
+    X: nonSM
+    i: FC:g
+-phase
+ phase shift
+    H: 'partial wave' or 'partial wave analysis'
+ phase space
+ PHENIX
+    b: Brookhaven RHIC Coll
+    i: core
+    d: magnetic detector at RHIC
+ Phi(1020)
+   Phi meson
+    b: meson
+    i: core
+ Phi(1680)
+    b: meson
+    i: core
+ phi**n model
+    b: field theoretical model
+    c: may be coupled with specific n
+    H: before 1990 'field theoretical model, scalar'
+ Phi3(1850)
+    b: meson
+    i: core
+    H: X(1850), Phi/J(1850)
+ philosophy
+ PHOBOS
+    b: Brookhaven RHIC Coll
+    i: core
+    d: magnetic detector at RHIC
+ phonon
+    X: nonSM
+ phosphorus
+ photino
+    b: sparticle
+    i: core
+ photoelectron
+   photoelectric effect
+ photofission
+ photomultiplier
+   PMT
+   photodiode
+   photocathode
+   photon sensor
+ photon
+    r: X-ray
+    r: gamma ray
+    r: radio wave
+    b: gauge boson
+    p: S000
+ photon axion
+ photon baryon
+ photon deuteron
+ photon electron
+ photon gluon
+ photon hadron
+ photon lepton
+ photon meson
+ photon n
+ photon nucleon
+ photon nucleus
+ photon p
+ photon photon
+   gamma gamma
+ photon pi
+ photon quark
+ photon Z0
+ photoproduction
+    b: production
+    c: for particle production by photons
+-pi
+   pion
+    b: meson
+ pi deuteron
+ pi K
+ pi n
+ pi nucleon
+ pi nucleus
+ pi p
+   pion proton
+   pion p
+ pi pi
+   pion pion
+ pi quark
+ pi(1300)
+    b: meson
+    i: core
+ pi(1770)
+    b: meson
+    i: core
+ pi(1775)
+    b: meson
+    i: core
+ pi(749)
+    b: meson
+    i: core
+-pi+
+    b: pi
+ pi+ deuteron
+ pi+ n
+ pi+ nucleon
+ pi+ nucleus
+ pi+ p
+ pi+ pi-
+-pi-
+    b: pi
+ pi- deuteron
+ pi- n
+ pi- nucleon
+ pi- nucleus
+ pi- p
+ pi0
+    b: pi
+ pi0 deuteron
+ pi0 n
+ pi0 nucleon
+ pi0 nucleus
+ pi0 p
+ pi0 pi+
+ pi0 pi-
+ pi1(1600)
+    b: meson
+    i: core
+ pi2(1670)
+    b: meson
+    i: core
+    H: A3(1680)
+ pi2(2100)
+    b: meson
+    i: core
+    H: A(2100)
+ Picard-Fuchs equation
+ Pioneer anomaly
+ pixel
+    h: /pixel\w+/
+-planar
+   coplanar
+ planarity
+   acoplanarity
+   coplanarity
+ Planck
+    c: for detector use 'satellite: Planck'
+ plane wave
+ plasma
+ plasmon
+    X: nonSM
+ plastics
+ platinum
+    b: elements
+ plutonium
+    b: elements
+ Poincare
+    h: /Poincar.*/
+    r: Lorentz
+ point splitting
+ Poisson
+ Poisson bracket
+ polarizability
+    h: polarisability
+ polarization
+    r: alignment
+ polarized beam
+    h: polarised beam
+ polarized target
+    h: polarised target
+ polaron
+    X: nonSM
+ pole
+ polonium
+    b: elements
+ Polyakov loop
+   Polyakov line
+   PNJL
+    i: core
+ polymer
+ pomeron
+    b: particle
+    i: core
+    X: nonSM
+ position dependence
+ position sensitive
+ positive particle
+    b: charged particle
+    i: core
+ positron
+   e+
+    r: electron
+    b: lepton
+ positron deuteron
+ positron hadron
+ positron n
+ positron nucleon
+ positron nucleus
+ positron p
+ positronium
+   orthopositronium
+    r: electron
+    b: bound state
+    i: core
+ postulated particle
+    i: core
+ potassium
+    b: elements
+-potential
+    r: prepotential
+ potential model
+    H: since 2008 and in old times
+ Potts model
+ power engineering
+ power spectrum
+   spectral index
+ power supply
+   high-voltage system
+   HV system
+ pp-wave
+ praseodymium
+    b: elements
+ preheating
+    h: pre-heating
+    r: reheating
+ preon
+ prepotential
+    r: potential
+ preprocessing
+ pressure
+ Primakoff effect
+-primary
+-primordial
+ Proca
+-production
+   creation
+    r: formation
+    r: fabrication
+    r: scattering
+    X: for particle production use more specific term, if possible (e.g. 'hadroproduction'). For materials and instruments use 'fabrication'
+ programming
+   software
+ promethium
+    b: elements
+ propagator
+   self-energy
+    r: two-point function
+ proportional chamber
+   MWPC
+   proportional wire chamber
+-proposal
+    c: only for submitted proposals
+-proposed
+ proposed experiment
+ protactinium
+    b: elements
+ proton synchrotron
+    b: synchrotron
+ protoneutron star
+    r: neutron star
+ pseudoparticle
+    r: quasiparticle
+    b: particle
+ pseudoscalar
+ pseudoscalar meson
+    b: pseudoscalar particle
+    b: meson
+    i: core
+ pseudoscalar particle
+    b: particle
+    i: core
+ pseudovector
+ PSI Cycl
+    X: SIN Cycl, at Villigen; meson factory; 0.6 GeV protons
+ psi mesons
+    b: meson
+    i: core
+ psi(3685)
+   psi(2S)
+    b: psi mesons
+    i: core
+ psi(3770)
+    b: psi mesons
+    i: core
+ psi(4040)
+    b: psi mesons
+    i: core
+ psi(4160)
+    b: psi mesons
+    i: core
+ psi(4415)
+    b: psi mesons
+    i: core
+ publishing
+    r: information management
+ pulsar
+ pulse stretcher
+   stretcher
+ pulsed
+ PYTHIA
+    b: Monte Carlo
+    i: core
+ Q-ball
+    i: core
+    X: nonSM
+ quadrupole lens
+   quadrupole magnet
+ quality
+ quantization
+    h: /quanti[zs]\w+/
+-quantum
+ quantum algebra
+    r: quantum group
+ quantum chromodynamics
+   QCD
+    i: core
+ quantum cosmology
+    h: /quantum cosmol\w+/
+    i: core
+ quantum electrodynamics
+   QED
+ quantum geometry
+ quantum gravity
+    h: /quantum gravit\w+/
+    b: gravitation
+    i: core
+ quantum group
+    r: quantum algebra
+ quantum hadrodynamics
+   QHD
+    i: core
+ quantum mechanics
+    h: /quantum[\s-]mechanic\w*/
+ quantum molecular dynamics
+   QMD
+ quantum number
+ quantum space
+ quark
+    r: multiquark
+    r: quarkonium
+    r: diquark
+    b: fermion
+    i: core
+ quark antiquark
+    h: /quark[\s-]anti[\s-]*quark/
+ quark gluon
+   quark-gluon
+ quark hadron
+ quark model
+    c: if possible use more specific term, not used for QCD
+ quark parton
+    b: parton
+    i: core
+ quark quark
+ quarkonium
+    h: /quarkoni\w*/
+    r: quark
+    b: bound state
+    i: core
+ quarz
+    b: matter
+ quasar
+ quasinormal mode
+   QNM
+ quasiparticle
+    h: /quasi[\s-]*particles*/
+    r: pseudoparticle
+    b: particle
+    H: pseudoparticle
+ quasipotential
+    b: potential
+ quaternion
+    r: octonion
+ qubit
+ quenching
+    h: /quench\w*/
+ quintessence
+    h: /quintessen\w*/
+    i: core
+ quintom
+    i: core
+ quiver
+ quon
+ R parity
+    h: /R[-\s]parity/
+    h: /R[-\s]symmetry/
+    b: parity
+    i: core
+ R-matrix
+-radiation
+    r: scattering
+ radiation detector
+ radiation protection
+    r: shielding
+    r: safety
+ radiative capture
+    b: capture
+ radiative correction
+    b: correction
+ radiative decay
+   two-photon decay
+    r: electromagnetic decay
+    b: decay
+ radio wave
+   radio emission
+   radio signal
+    r: photon
+ radioactivity
+    h: /radioactiv\w+/
+    r: nuclide
+ radion
+    i: core
+    X: nonSM
+ radium
+    b: elements
+ radon
+    b: elements
+ rainbow
+    b: cosmological model
+ ramping
+ Randall-Sundrum model
+   RS model
+    h: Randall-Sundrum
+    b: field theoretical model
+    b: membrane model
+    i: core
+-random
+    X: e.g. 'coupling, random', 'matrix model, random'
+ random field
+ random lattice
+    b: lattice
+ random phase approximation
+   RPA
+    b: approximation
+ random surface
+    b: surface
+    X: for lattice field theories
+ random walk
+ rapidity
+   pseudorapidity
+ rapidity dependence
+   y-dependence
+    b: rapidity
+ rapidity spectrum
+    b: rapidity
+ rare decay
+   suppressed decay
+    r: decay modes
+    b: decay
+    i: core
+ Rarita-Schwinger equation
+   Rarita-Schwinger
+    b: field equations
+    i: core
+-ratio
+-rational
+ readout
+ recoil
+ recombination
+ redshift
+    h: red-shift
+-reduced
+ reflection
+ regeneration
+ Regge
+    h: /Reggeiz\w+/
+ Regge calculus
+ Regge poles
+   Regge trajectories
+    i: core
+ regularization
+    h: /regulari[zs]\w+/
+ reheating
+    r: preheating
+ Reissner-Nordstroem
+    h: /Reissner-Nordstr\w*/
+-relativistic
+    r: nonrelativistic
+    r: relativity theory
+ relativity theory
+   relativity
+    r: relativistic
+ renormalizable
+    b: renormalization
+ renormalization
+ renormalization group
+   RG
+   ERGE
+    b: renormalization
+ renormalon
+    b: renormalization
+    i: core
+    X: nonSM
+ reparametrization
+    b: parametrization
+-representation
+    c: group theory
+ rescaling
+    r: scaling
+ resistive plate chamber
+   RPC
+ resolution
+-resolved
+-resonance
+    X: if possible use more specific term, like 'meson resonance'. See also 'beam instability'
+ resonating group method
+   RGM
+-review
+    r: conference summary
+    r: activity report
+ RF system
+   RF structure
+ rhenium
+    b: elements
+ rho parameter
+ rho(1405)
+    b: meson
+    i: core
+ rho(1450)
+    b: meson
+    i: core
+    H: rho(1600)
+ rho(1700)
+    b: meson
+    i: core
+    H: rho(1600)
+ rho(2110)
+    b: meson
+    i: core
+ rho(2150)
+    b: meson
+    i: core
+ rho(2210)
+    b: meson
+    i: core
+ rho(770)
+   rho meson
+    b: meson
+    i: core
+ rho(770)+
+    b: rho(770)
+    i: core
+ rho(770)-
+    b: rho(770)
+    i: core
+ rho(770)0
+    b: rho(770)
+    i: core
+ rho3(1690)
+    b: meson
+    i: core
+    H: g(1690)
+ rho3(2250)
+    b: meson
+    i: core
+    H: rho(2250)
+ rho5(2350)
+    b: meson
+    i: core
+    H: rho(2350)
+ rhodium
+    b: elements
+ Ricci
+ RICH
+   ring imaging Cherenkov counter
+    b: Cherenkov counter
+    i: core
+ Riemann surface
+    b: surface
+ Riemann-Cartan
+ right-handed
+    r: left-handed
+ Rindler
+-ring
+    i: FC:m
+ Robertson-Walker
+   FRW
+   FLRW
+ rotation
+    h: rotating
+    h: /rotation\w+/
+ rotator
+    c: 'model: rotator' or 'spin: rotator'
+ Rubakov effect
+    i: core
+ rubidium
+    b: elements
+ ruthenium
+    b: elements
+ Rutherford ISIS PS
+   ISIS
+    X: 0.8 GeV protons
+ S(5)
+    b: S(N)
+ S(N)
+ S-brane
+    b: membrane model
+    i: core
+ S-duality
+    h: S-dual
+    b: duality
+    i: core
+ S-matrix
+   T-matrix
+   scattering matrix
+    r: scattering amplitude
+    b: scattering
+ Saclay ALS
+   ALS
+    b: Saclay Lab
+    d: 1.7 GeV electrons
+ Saclay Lab
+    d: for unspecified accelerators at Saclay
+ Saclay PS
+   SATURNE
+    b: Saclay Lab
+    d: 3 GeV protons, 1.2 AGeV ions
+ saddle-point approximation
+    h: /saddle-point/
+    b: approximation
+ safety
+    r: radiation protection
+    c: for nuclear aspects use 'dosimetry', 'shielding' or 'radiation protection'
+ Sakai-Sugimoto model
+    b: quantum chromodynamics: holography
+ Salam-Weinberg model
+   Weinberg-Salam model
+    b: field theoretical model
+    i: core
+ Salpeter equation
+    r: Bethe-Salpeter equation
+ samarium
+    b: elements
+ sandwich
+ SASE
+   self amplified spontaneous emission
+    r: free electron laser
+    b: laser
+ satellite
+   ISS
+   International Space Station
+   space telescope
+    b: detector
+    c: used in connection with cosmic radiation experiments
+ saturation
+ saxion
+    r: axion
+    i: core
+    H: since dec 08
+-scalar
+ scalar meson
+    b: scalar particle
+    b: meson
+    i: core
+ scalar particle
+    b: particle
+    i: core
+ scalar tensor
+    h: scalar-tensor
+    c: 'gravitation, scalar tensor'
+-scale 
+   energy scale
+    r: scaling
+ scale dependence
+    r: scaling
+    b: dependence
+ scaling
+    h: /scale invarian\w*/
+    r: rescaling
+    r: universality
+    r: scale dependence
+ scandium
+    b: elements
+ scattering
+    r: radiation
+    r: production
+    b: interaction
+ scattering amplitude
+    h: tree amplitude
+    r: S-matrix
+    r: amplitude analysis
+    b: scattering
+ scattering length
+    b: scattering
+ Schroedinger
+    h: /Schr\S+dinger
+ Schroedinger equation
+    h: /Schr\S+dinger equation/
+ Schwarzschild
+ Schwinger model
+    b: field theoretical model
+    i: core
+ Schwinger terms
+    i: core
+ SciBooNE
+    r: BooNE
+    i: core
+    H: since Mar 08
+-science
+    c: very restricted use
+ scintillation counter
+   scintillator
+    h: /scintillati\w+/
+ screening
+    r: shadowing
+ SDC
+    b: SSC Coll
+    d: magnetic detector at SSC
+-sea
+ seagull
+-search for
+    c: restricted use, only for experimental results
+ second-class current
+    i: core
+-secondary
+    H: was secondary radiation
+ secondary beam
+    r: separated beam
+    b: radiation
+ seesaw model
+    h: /see[ -]?saw/
+    i: core
+ Seiberg-Witten map
+    b: transformation
+    i: core
+ Seiberg-Witten model
+   Seiberg-Witten theory
+    b: field theoretical model
+    i: core
+ selection rule
+ selectron
+    b: sparticle
+    i: core
+ selenium
+    b: elements
+ self-duality
+    h: /self[- ]dual\w*/
+    b: duality
+ self-force
+ semi-inclusive reaction
+    r: inclusive reaction
+ semiclassical
+   quasiclassical
+    r: WKB approximation
+    X: war '-' Schlagwort 'approximation, quasiclassical'
+ semiconductor
+    r: integrated circuit
+ semiconductor detector
+   silicon detector
+   silicon counter
+   silicon sensor
+   CMOS
+   DEPFET
+   MOSFET
+   MEDIPIX
+    r: solid-state counter
+ semileptonic decay
+   beta decay
+    b: decay
+ sensitivity
+ separable potential
+    b: potential
+ separated beam
+    r: particle separator
+    r: secondary beam
+    b: beam
+ septum
+    b: magnet
+ Serpukhov Lab
+    d: for unspecified accelerators at ITEF
+    X: laboratory
+ Serpukhov PS
+   IHEP
+    b: Serpukhov Lab
+    i: core
+    d: 70 GeV protons, 3.5 GeV/A ions
+ Serpukhov UNK Stor
+   UNK
+    b: Serpukhov Lab
+    i: core
+    d: 600/3000 GeV protons; 2200 GeV-cms pp
+ Serpukhov VLEPP Coll
+   VLEPP
+    b: Serpukhov Lab
+    i: core
+ sextet
+ sfermion
+    b: sparticle
+    i: core
+ sgoldstino
+    b: sparticle
+    i: core
+ shadowing
+    r: screening
+ shell model
+ shielding
+    r: radiation protection
+ shock waves
+ short-distance behavior
+ short-range
+ shower detector
+ showers
+    r: cascade
+-Sigma
+    r: Antisigma
+    b: hyperon
+    i: core
+ Sigma deuteron
+ sigma model
+    r: CP(N) model
+    b: field theoretical model
+    i: core
+ Sigma nucleus
+ sigma term
+ Sigma(1385)
+    b: hyperon
+    i: core
+    c: partial wave P13
+ Sigma(1480)
+    b: hyperon
+    i: core
+ Sigma(1560)
+    b: hyperon
+    i: core
+ Sigma(1580)
+    b: hyperon
+    i: core
+    c: partial wave D13
+ Sigma(1620)
+    b: hyperon
+    i: core
+    c: partial wave S11
+ Sigma(1660)
+    b: hyperon
+    i: core
+    c: partial wave P11
+ Sigma(1670)
+    b: hyperon
+    i: core
+    c: partial wave D13 and other partial wave
+ Sigma(1690)
+    b: hyperon
+    i: core
+ Sigma(1750)
+    b: hyperon
+    i: core
+    c: partial wave S11
+ Sigma(1770)
+    b: hyperon
+    i: core
+    c: partial wave P11
+ Sigma(1775)
+    b: hyperon
+    i: core
+    c: partial wave D15
+ Sigma(1840)
+    b: hyperon
+    i: core
+    c: partial wave P13
+ Sigma(1880)
+    b: hyperon
+    i: core
+    c: partial wave P11
+ Sigma(1915)
+    b: hyperon
+    i: core
+    c: partial wave F15
+ Sigma(1940)
+    b: hyperon
+    i: core
+    c: partial wave D13
+ Sigma(2000)
+    b: hyperon
+    i: core
+    c: partial wave S11
+ Sigma(2030)
+    b: hyperon
+    i: core
+    c: partial wave F17
+ Sigma(2070)
+    b: hyperon
+    i: core
+    c: partial wave F15
+ Sigma(2080)
+    b: hyperon
+    i: core
+    c: partial wave P13
+ Sigma(2100)
+    b: hyperon
+    i: core
+    c: partial wave G17
+ Sigma(2250)
+    b: hyperon
+    i: core
+ Sigma(2455)
+    b: hyperon
+    i: core
+ Sigma(2620)
+    b: hyperon
+    i: core
+ Sigma(3000)
+    b: hyperon
+    i: core
+ Sigma(3170)
+    b: hyperon
+    i: core
+-Sigma+
+    b: Sigma
+    i: core
+-Sigma-
+    b: Sigma
+    i: core
+ Sigma/b
+    b: baryon
+    i: core
+ Sigma/bc
+    b: baryon
+    i: core
+ Sigma/c(2455)
+    b: charmed baryon
+    i: core
+    H: Sigma/c
+ Sigma/c(2455)+
+    b: Sigma/c(2455)
+    i: core
+ Sigma/c(2455)++
+    b: Sigma/c(2455)
+    i: core
+ Sigma/c(2455)0
+    b: Sigma/c(2455)
+    i: core
+ Sigma/c(2520)
+    b: charmed baryon
+    i: core
+    H: Sigma/c(2530)
+ Sigma/c(2800)
+    b: charmed baryon
+    i: core
+-Sigma0
+    b: Sigma
+    i: core
+ signal processing
+    r: data analysis method
+    r: data acquisition
+    c: restricted use, e.g. electronic methods
+ signature
+    c: restricted use, e.g. space-time, signature; not for experimental papers
+ silicon
+    b: elements
+ silver
+    b: elements
+ simplex
+    h: /[\d-]*simplic\w+/
+ sine-Gordon equation
+    b: field equations
+ sine-Gordon model
+    b: field theoretical model
+    i: core
+ single production
+    b: production
+    H: since May 09
+ singlet
+    b: multiplet
+ singleton
+    X: nonSM
+ singularity
+    r: analytic properties
+ sinh-Gordon equation
+    b: field equations
+ site
+    r: buildings
+    H: since Feb 08
+ Sivers function
+    i: core
+-size
+ Skyrme model
+    r: Skyrmion
+    i: core
+ Skyrmion
+    r: Skyrme model
+    b: particle
+    i: core
+    X: nonSM
+ SL(2)
+ SL(2,C)
+ SL(2,R)
+ SL(4,R)
+ SL(2,R)/U(1)
+ SL(3)
+ SL(N)
+ SL(N,C)
+ SL(N,R)
+ SLAC Lab
+    d: for unspecified accelerators at SLAC
+    X: laboratory
+ SLAC Linac
+    b: SLAC Lab
+    d: 25 GeV electrons
+ SLAC PEP Stor
+   PEP
+    b: SLAC Lab
+    i: core
+    d: 29 GeV-cms e+e-
+ SLAC SLC Linac
+   SLC
+    b: SLAC Lab
+    i: core
+    d: 100 GeV-cms e+e-, linear collider
+ SLAC SPEAR Stor
+   SPEAR
+    b: SLAC Lab
+    i: core
+    d: 8 GeV-cms e+e-
+ Slavnov identity
+   Slavnov-Taylor identity
+   STI
+ SLD
+    b: SLAC SLC Linac
+    i: core
+    d: magnetic detector at SLC
+ slepton
+    b: sparticle
+    i: core
+ sliver
+ slope
+ slow-roll approximation
+    h: /slow[-\s]roll\w*/
+    b: approximation
+    i: core
+ small-angle
+ small-x
+   low-x
+   low Bjorken x
+    X: e.g. 'structure function, small-x'
+ smuon
+    b: sparticle
+    i: core
+ SND
+ sneutrino
+    b: sparticle
+    i: core
+ SNO
+    i: core
+    H: Sudbury
+ SO(10)
+    X: e.g. 'symmetry, SO(10)'
+ SO(2,1)
+ SO(3)
+ SO(3,1)
+ SO(4)
+ SO(N)
+ sociology
+ sodium
+    b: elements
+ sodium-iodide
+   NaI
+    b: matter
+ soft collinear effective theory
+   SCET
+    i: core
+ solar
+ solar system
+ solenoid
+    b: magnet
+ solid-state counter
+   solid-state detector
+    r: semiconductor detector
+ solids
+ soliton
+    r: monopole
+    X: nonSM
+-solution
+ Soudan
+    b: deep underground detector
+    i: core
+ Sp(6) x U(1)
+ Sp(N)
+-space
+   manifold
+ space charge
+    c: for accelerators only
+ space dependence
+    b: space-time dependence
+ space-time
+   curved space
+ space-time dependence
+    b: space-time
+ spark chamber
+ sparticle
+   superparticle
+   superpartner
+    r: supersymmetry
+    b: particle
+    i: core
+    d: supersymmetric particle
+    X: nonSM
+ spatial distribution
+ spatial resolution
+   position resolution
+    b: resolution
+ special focusing
+    b: beam focusing
+ special relativity
+    r: general relativity
+    r: doubly special relativity
+ specific heat
+ spectator
+ spectral
+ spectral representation
+   spectral function
+ spectrometer
+    c: restricted use
+-spectrum
+   spectra
+    s: spectra
+ sphaleron
+    i: core
+    X: nonSM
+ sphere
+    r: circle
+ sphericity
+ spin
+ Spin(7)
+ Spin(N)
+ spinless
+ spinor
+-split
+ splitting
+ spontaneous symmetry breaking
+   SSB
+    h: /spontaneous break\w+/
+    h: spontaneously broken
+    r: dynamical symmetry breaking
+    b: symmetry breaking
+    H: till Jul 08 'symmetry, spontaneously broken'
+ SPring-8 Stor
+   SPring-8
+ squark
+    b: sparticle
+    i: core
+ squeezed state
+    b: coherent state
+ SSC Coll
+    i: core
+ St. Petersburg Cycl
+ stability
+   instability
+    h: /stabi*l\w*/
+ stacking
+ staggered
+-standard model
+ STAR
+    b: Brookhaven RHIC Coll
+    i: core
+    d: magnetic detector at RHIC
+ star
+-static
+    r: electrostatic
+ statistical
+ statistical analysis
+   Kolmogorov-Smirnov test
+    r: statistics
+ statistical mechanics
+ statistics
+    r: statistical analysis
+ stau
+    b: sparticle
+    i: core
+ sterile
+    r: neutrino
+ stochastic
+ stochastic cooling
+    b: beam cooling
+ Stokes theorem
+-stop
+    r: top
+    b: sparticle
+    i: core
+-storage ring
+    b: accelerator
+    c: for accelerator aspects only; for experimental results use 'colliding beams'
+ Stoughton ES
+    X: "(""SRC""; 1 GeV electrons; synchrotron radiation)"
+ strange meson
+    b: meson
+    b: strange particle
+    i: core
+ strange particle
+    b: strangeness
+    b: particle
+    i: core
+ strangelet
+    b: strangeness
+    i: core
+    X: nonSM
+ strangeness
+    b: flavor
+    i: core
+ streamer chamber
+ string
+    h: stringy
+ string model
+    h: /string theor\w*/
+    b: field theoretical model
+    b: string
+    i: core
+ string tension
+    b: tension
+ strong coupling
+   strong force
+    h: /strongly coupl\w+/
+    r: weak coupling
+    b: coupling
+ strong field
+    c: for field theoretical aspects, otherwise use e.g. 'magnetic field, high'
+ strong interaction
+    b: interaction
+ strontium
+    b: elements
+ structure function
+ SU(1,1)
+ SU(15)
+ SU(2)
+ SU(2,2)
+ SU(2) x SU(2)
+ SU(2) x SU(2) x U(1)
+ SU(2) x U(1)
+ SU(2) x U(1) x U(1)
+ SU(3)
+ SU(3) x SU(2) x SU(2) x U(1)
+ SU(3) x SU(2) x U(1)
+ SU(3) x SU(2) x U(1) x U(1)
+ SU(3) x SU(3)
+ SU(3) x SU(3) x SU(2) x U(1)
+ SU(3) x SU(3) x SU(3)
+ SU(3) x SU(3) x U(1)
+ SU(3) x U(1)
+ SU(4) x U(1)
+ SU(4)
+ SU(4) x SU(2) x SU(2)
+ SU(5)
+ SU(5) x U(1)
+   flipped SU(5)
+ SU(6)
+ SU(N)
+ SU(N) x SU(N)
+ Sudakov
+ Sudbury
+ sulfur
+    b: elements
+ sum rule
+ supercharge
+ superconductivity
+    h: /superconduct\w+/
+    r: superfluid
+ superfield
+    r: superspace
+    i: core
+ superfluid
+   superfluidity
+    r: superconductivity
+ superfragment
+    b: nucleus
+    i: core
+    d: charmed or beautiful nucleus
+ supergravity
+   SUGRA
+   mSUGRA
+    r: supersymmetry
+    i: core
+ superluminal
+    r: tachyon
+ supernova
+   SNe
+   SnIa
+    h: supernovae
+ superpotential
+    b: potential
+ superradiance
+    H: since 2008
+ superselection rule
+    b: selection rule
+ superspace
+    r: superfield
+    b: supersymmetry
+ superstring
+    b: string model
+    b: supersymmetry
+    i: core
+ supersymmetry
+   SUSY
+    h: /supersymmetr\w*/
+    h: super-Yang-Mills
+    r: sparticle
+    r: supergravity
+    b: symmetry
+    i: core
+ superweak interaction
+    b: interaction
+    i: core
+ suppression
+    h: /suppress\w+/
+    r: yield
+    r: enhancement
+ surface
+ surface tension
+    b: tension
+ susceptibility
+ SVD
+    X: at Serpukhov
+-symmetry
+    r: invariance
+ symmetry breaking
+   broken symmetry
+    r: violation
+    b: symmetry
+ symplectic
+ synchrotron
+ synchrotron oscillation
+ synchrotron radiation
+ T-duality
+    h: T-dual
+    b: duality
+    d: equivalence between a small extra dimension and a large one
+    i: core
+ T-parity
+    i: core
+-tables
+ tachyon
+    h: /tachyon\w+/
+    r: superluminal
+    i: core
+    X: nonSM
+ tadpole
+ tagged beam
+    b: beam
+-talk
+ TAMA
+ Tamm-Dancoff approximation
+    b: approximation
+ tantalum
+    b: elements
+-target
+ taste
+-tau
+   tau lepton
+    b: lepton
+-tau+
+    b: tau
+    i: core
+-tau-
+    b: tau
+    i: core
+ tau-function
+    h: /tau[-\s]function/
+ Taub-NUT
+ Taylor expansion
+    b: expansion
+ technetium
+    b: elements
+ technicolor
+   ETC
+    i: core
+ technipion
+    b: technicolor
+    i: core
+    X: nonSM
+ technirho
+    b: technicolor
+    i: core
+    X: nonSM
+-technology
+    r: fabrication
+    c: for important technological methods
+ Teichmueller
+ teleparallel
+ tellurium
+    b: elements
+ temperature
+    r: cryogenics
+ temperature dependence
+ temporal gauge
+    b: gauge
+ tension
+-tensor
+ tensor meson
+    b: meson
+    i: core
+ terbium
+    b: elements
+ tetrad
+ tetrahedron
+ tetraquark
+    b: multiquark
+    i: core
+-TeV
+    d: tera electron volt
+-TeVeS
+   tensor vector scalar
+    H: since Apr 09
+ texture
+ thallium
+    b: elements
+ thermal
+    r: finite temperature
+ thermodynamical
+   thermodynamic
+ thermodynamics
+-thesis
+   dissertation
+    c: including masters' theses
+ Theta parameter
+ Theta(1540)
+    b: pentaquark
+    i: core
+ Thirring model
+    b: field theoretical model
+    i: core
+ thorium
+    b: elements
+ three-body problem
+   three-body interaction
+    r: many-body problem
+    r: few-body problem
+-threshold
+ thrust
+    r: event shape analysis
+ thulium
+    b: elements
+-time
+   clock
+ time delay
+   delay line
+   delay time
+ time dependence
+   time-dependence
+   time derivative
+   time varying
+   temporal-dependence
+   temporal-variation
+   function of time
+    b: space-time dependence
+ time machine
+ time projection
+    r: imaging
+ time resolution
+    b: resolution
+ time reversal
+   T-invariance
+ time-of-flight
+   TOF
+ time-to-digital converter
+   TDC
+    H: since Apr 08
+ tin
+    b: elements
+ titanium
+    b: elements
+ Toda
+ Tokai J-PARC PS
+    b: J-PARC Lab
+ Tokyo ES
+    X: 1.3 GeV electrons
+ Tokyo TARN
+   TARN
+    X: 1.4 GeV protons, 0.5 GeV/A ions; cooler ring
+ Tomsk ES
+-top
+   top-quark
+    s: truth
+    r: stop
+    b: flavor
+    i: core
+ TOPAZ
+    b: KEK TRISTAN Stor
+    i: core
+    d: magnetic detector at TRISTAN
+ topcolor
+    i: core
+ topological
+ topology
+ toponium
+    b: quarkonium
+    b: top
+    i: core
+    H: was 'quarkonium, truth'
+    H: since Apr 09
+ torsion
+    h: /torsion.*/
+ torus
+   toroidal
+ total cross section
+    r: channel cross section
+    b: cross section
+ total-absorption counter
+ TOTEM
+    b: CERN LHC Coll
+    i: core
+    d: magnetic detector at LHC
+ trace anomaly
+    i: core
+    H: since 2008
+ track data analysis
+   pattern recognition
+   track following
+   track reconstruction
+   jet algorithm
+    h: /track measur\w*/
+ track photography
+ track sensitive
+    c: only used for tracks visualized in matter, e.g. 'plastics, track sensitive'
+ tracking detector
+   tracker
+   tracking system
+    c: restricted use, if possible use more specific term, e.g. 'drift chamber'
+ tracks
+    r: trajectory
+ trajectory
+    r: tracks
+ transducer
+    b: electronics
+ transfer matrix
+-transformation
+-transition
+    r: oscillation
+ transition radiation
+ transition radiation detector
+   TRD
+   TRT
+    b: radiation detector
+ translation
+    c: only in cases of central importance, e.g. 'invariance, translation'
+ transmutation
+    c: for particles and nuclear waste, e.g. 'nuclide, transmutation'
+ transparency
+ transport theory
+   transport model
+   transport properties
+    c: not for beam transport
+ transuranium
+    b: elements
+ transverse
+    r: longitudinal
+ transverse energy
+    b: energy
+ transverse momentum
+    r: longitudinal momentum
+    b: momentum
+ transversity
+ tree approximation
+   tree level
+    h: tree amplitude
+    b: approximation
+ triality
+ triangulation
+    h: /triangul\w+/
+ Trieste ES
+   ELETTRA
+    X: 2 GeV electrons; synchrotron radiation
+ trigger
+    r: fast logic
+ triple-Regge limit
+    i: core
+ triplet
+ tritium
+    b: elements
+    b: nuclide
+    i: core
+ TRIUMF Cycl
+    d: meson factory at Vancouver
+ triviality
+    c: for field theoretical aspects
+ tube
+   straw
+ tumbling
+ tungsten
+    b: elements
+ tunneling
+   tunnel effect
+    h: /tunnel\w+/
+ turbulence
+    r: chaos
+ twin Higgs model
+    b: Higgs model
+    i: core
+ TWIST
+    b: TRIUMF Cycl
+ twist
+   twisted
+    r: higher-twist
+ twistor
+ two-beam
+ Two-Gamma
+    i: core
+    d: magnetic detector at PEP
+ two-gluon
+    b: gluon
+    i: core
+ two-particle
+    b: particle
+ two-photon
+    b: photon
+ two-pion
+    b: pi
+ two-point function
+   2-point function
+    r: propagator
+    b: n-point function
+ U(1)
+ U(1) problem
+ U(1) x U(1)
+ U(2)
+ U(3)
+ U(N)
+ U(N) x U(N)
+ U-duality
+    i: core
+ UA1
+    b: CERN SPS Coll
+    d: magnetic detector at CERN SPS Coll
+ UA2
+    b: CERN SPS Coll
+    i: core
+    d: magnetic detector at CERN SPS Coll
+ UA4
+    b: CERN SPS Coll
+    i: core
+    d: forward spectrometer at CERN SPS Coll
+ UHE
+   ultra high energy
+    b: energy
+    i: core
+    H: since Aug 08
+ ultraviolet
+    r: infrared
+ uncertainty relations
+   uncertainty principle
+ underlying event
+    r: background
+ undulator
+    r: free electron laser
+ unified field theory
+   unified theory
+    i: core
+ unitarity
+    h: /unitar\w+/
+ unitary gauge
+    b: gauge
+ universal extra dimension
+   UED
+    r: higher-dimensional
+    i: core
+ universality
+    r: scaling
+ unparticle
+    b: particle
+    i: core
+ Unruh effect
+-up
+   u-quark
+    b: flavor
+ upgrade
+-upper limit
+ Uppsala CELSIUS Stor
+   CELSIUS
+    X: 2.1 GeV/A ions
+ upsilon mesons
+    b: meson
+    i: core
+ Upsilon(10020)
+   Upsilon(2S)
+    b: upsilon mesons
+    i: core
+ Upsilon(10355)
+   Upsilon(3S)
+    b: upsilon mesons
+    i: core
+ Upsilon(10570)
+   Upsilon(4S)
+    b: upsilon mesons
+    i: core
+ Upsilon(10870)
+   Upsilon(5S)
+    b: upsilon mesons
+    i: core
+ Upsilon(11020)
+   Upsilon(6S)
+    b: upsilon mesons
+    i: core
+ Upsilon(9460)
+   Upsilon(1S)
+    b: upsilon mesons
+    i: core
+ uranium
+    b: elements
+ Urca process
+-vacuum
+ vacuum polarization
+ vacuum state
+   vacua
+ vacuum system
+   vacuum chamber
+ Vaidya
+ valence
+ validity test
+    c: restricted use for general tests but not for interpretations
+ valon model
+ van der Waals
+ vanadium
+    b: elements
+ Vancouver KAON PS
+    i: core
+    X: 30 GeV protons
+ variable speed of light
+   VSL model
+    h: VSL
+    i: core
+ variational
+-vector
+ vector dominance
+    r: meson dominance
+    b: meson dominance
+    i: core
+ vector manifestation
+    i: core
+ vector meson
+    b: meson
+    i: core
+ velocity
+ velocity dependence
+ Veneziano
+ VENUS
+    b: KEK TRISTAN Stor
+    i: core
+    d: magnetic detector at TRISTAN
+ VERITAS
+    i: core
+    d: Very Energetic Radiation Imaging Telescope Array System
+ Verma module
+-vertex
+    X: mostly for instruments and track data analysis; for secondary vertices see also 'path length' or 'impact parameter'. Also 'operator, vertex'
+ vertex detector
+   vertex tracker
+   vertex locator
+   VELO
+    b: detector
+    H: since Dec 07
+ vertex function
+ VHE
+   very high energy
+    b: energy
+    i: core
+    c: energy > 100 GeV
+    H: since Aug 08
+ Villigen SLS
+-violation
+    h: /violat\w+/
+    h: /non[-\s]*conserv\w+/
+    r: symmetry breaking
+ Virasoro
+ VIRGO
+   Virgo
+    d: gravitational wave detector
+-virtual
+ viscosity
+   viscous
+ Vlasov equation
+ Vlasov-Maxwell equation
+ von Neumann
+ vortex
+    h: vortices
+ vorton
+    X: nonSM
+-W
+    b: gauge boson
+    b: intermediate boson
+    p: S043
+ W gluon
+ W W
+-W'
+    b: gauge boson
+    b: intermediate boson
+    i: core
+    X: nonSM
+ W(3)
+ W(4)
+ W(infinity)
+ W(N)
+-W+
+    b: W
+    i: core
+ W+ W-
+    b: W W
+-W-
+    b: W
+    i: core
+ wake field
+   wakefield
+ Walecka model
+    b: field theoretical model
+ Ward identity
+    i: core
+ Ward-Takahashi identity
+   WTI
+    i: core
+ warped
+ water
+    b: matter
+-wave
+ wave function
+    h: /wave[\s-]*function/
+ wavelength shifter
+   WLS
+    h: /wave length shift\w*/
+ wavelet
+ WDVV equation
+ weak coupling
+    r: strong coupling
+    b: coupling
+ weak field
+    c: for field theoretical aspects only
+ weak interaction
+    b: interaction
+ Weinberg
+ Weinberg angle
+   weak mixing angle
+    b: mixing angle
+    i: core
+ Wess-Zumino model
+   Wess-Zumino theory
+    b: field theoretical model
+    i: core
+ Wess-Zumino term
+   Wess-Zumino-Witten term
+   WZW term
+    i: core
+ Wess-Zumino-Witten model
+   WZW model
+   WZNW
+   Wess-Zumino-Novikov-Witten model
+    b: field theoretical model
+    i: core
+ Weyl
+ Weyl equation
+ Wheeler-DeWitt equation
+   WdW
+   WDW equation
+    i: core
+ white dwarf
+ Wick-Cutkosky model
+   Wick-Cutkosky
+    i: core
+ wide-angle
+   large-angle
+-width
+    r: decay rate
+    X: used for resonances or enhancements, also 'beam, width'; see also 'dispersion', 'diffusion' or 'beam profile'
+ wiggler
+-Wilson
+ Wilson loop
+   Wilson-line
+    i: core
+ WIMP
+   weakly interacting massive particle
+    i: core
+    X: nonSM
+ WIMP nucleon
+ WIMP nucleus
+ WIMP p
+ Wino
+    b: sparticle
+    i: core
+ wire
+ Witten index
+ WKB approximation
+    h: WKB
+    r: semiclassical
+    b: approximation
+ WMAP
+   Wilkinson Microwave Anisotropy Probe
+ wormhole
+    i: core
+ X(1600)
+    b: meson
+    i: core
+ X(1700)
+    H: eta(1700)
+ X(1740)
+    b: meson
+    i: core
+ X(1775)
+    b: meson
+    i: core
+ X(1830)
+    b: meson
+    i: core
+ X(1920)
+    b: meson
+    i: core
+ X(1950)
+    b: meson
+    i: core
+ X(2200)
+    b: meson
+    i: core
+ X(3250)
+    b: meson
+    i: core
+ X(3872)
+    b: meson
+    i: core
+ x-dependence
+    c: use more specific term if possible
+ X-ray
+    r: photon
+    c: energy 0.5 to 100 keV
+ xenon
+    b: elements
+-Xi
+   cascade baryon
+    r: Antixi
+    b: baryon
+    i: core
+ Xi(1530)
+    b: baryon
+    i: core
+    d: partial wave P13
+ Xi(1630)
+    b: baryon
+    i: core
+ Xi(1690)
+    b: baryon
+    i: core
+ Xi(1820)
+    b: baryon
+    i: core
+ Xi(1860)
+    b: baryon
+    i: core
+    d: pentaquark
+ Xi(1950)
+    b: baryon
+    i: core
+ Xi(2030)
+    b: baryon
+    i: core
+ Xi(2120)
+    b: baryon
+    i: core
+ Xi(2250)
+    b: baryon
+    i: core
+ Xi(2370)
+    b: baryon
+    i: core
+ Xi(2500)
+    b: baryon
+    i: core
+-Xi-
+    b: Xi
+    i: core
+ Xi/b
+    b: baryon
+ Xi/c
+    b: baryon
+ Xi/c(2645)
+    b: Xi/c
+ Xi/c(2790)
+    b: Xi/c
+ Xi/c(2815)
+    b: Xi/c
+    i: core
+ Xi/c+
+    b: Xi/c
+    i: core
+    H: A+
+ Xi/c0
+    b: Xi/c
+    i: core
+    H: A0
+-Xi0
+    b: Xi
+    i: core
+ XY model
+ Y(3940)
+    b: hadron
+    i: core
+    H: since Feb 08
+ Y(4140)
+    b: hadron
+    i: core
+    H: since Apr 09
+ Y(4260)
+    b: meson
+    i: core
+ Yang-Baxter
+ Yang-Baxter equation
+ Yang-Mills
+   YM
+   SYM
+    i: core
+ Yang-Mills-Higgs theory
+   YMH
+    i: core
+-yield
+   gain
+    r: suppression
+ ytterbium
+    b: elements
+ yttrium
+    b: elements
+ Yukawa
+-Z'
+   extra neutral gauge boson
+    b: gauge boson
+    b: intermediate boson
+    i: core
+    X: nonSM
+ Z(2)
+ Z(3)
+ Z(4430)
+    b: meson
+    i: core
+ Z(N)
+ Z(N) x Z(M)
+-Z0
+   Z-boson
+    b: gauge boson
+    b: intermediate boson
+    p: S044
+    i: core
+ Z0 Z0
+ Z0(1780)
+    b: meson
+    i: core
+    X: partial wave P01
+ Z0(1865)
+    b: meson
+    i: core
+    X: partial wave D03
+ Z1(1725)
+    b: meson
+    i: core
+    X: partial wave P11
+ Z1(1900)
+    b: meson
+    i: core
+    X: partial wave P13
+ Z1(2150)
+    b: meson
+    i: core
+ Z1(2500)
+    b: meson
+    i: core
+ Zee model
+ Zeno effect
+ zero mode
+ zeta function
+    h: /zeta[-\s]function/
+ ZEUS
+    b: DESY HERA Stor
+    i: core
+    d: magnetic detector at HERA
+ zinc
+    b: elements
+ Zino
+    b: sparticle
+    i: core
+ zirconium
+    b: elements
