@@ -1,0 +1,165 @@
+    <script type="text/javascript" src="/du/jqueryui/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="/du/jqueryui/ui/jquery.ui.autocomplete-rca.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="./jqueryui/css/redmond/jquery-ui-1.8.2.custom.css">  -->
+    <link rel="stylesheet" type="text/css" href="/du/jqueryui/css/ui-lightness/jquery-ui-1.8.1.custom.css">
+
+    <style type="text/css">
+        .menu_body {
+            display:none;
+        }
+        .menu_body a {
+            display:inline;
+            line-height:1.3;
+            padding:0.2em 0.3em;
+            text-decoration:none;
+            text-size:smaller;
+        }
+        a.show-more {
+            font-size:small;
+            float:right;
+        }
+        .menu_body a.show-more {
+            display:none;
+        }
+        .menu_body a:hover {
+          
+        }
+        ul.related {
+            list-style: none;
+            padding: 1em 0.5em .5em 1em;
+        }
+        .ui-menu .ui-menu-item a {
+            display:inline;
+            line-height:1.3;
+            padding:0em 0em;
+            text-decoration:none;
+        }
+        ul.ui-menu {
+            background-color:white;
+        }
+        ul.ui-widget-content {
+            background:white;
+        }
+        li.ui-menu-item:hover  { 
+            background: #d5e2ff; 
+        }
+        .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus  {
+            background:none;
+            border:none;
+            color:black;
+            background-color: #d5e2ff;
+            font-weight:bold;
+        }
+        .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+            font-weight:normal;
+            margin:0px;
+        }
+
+    </style>    
+
+    <script type="text/javascript">
+      $(function() {
+        
+        var urls = {
+            '': '', // any field
+            'fulltext': '/du/fulltext.py',
+            'keyword': '/du/keywords.py',
+            'author': '/du/authors.py',
+            '*': '' //default, leave empty to cancel search
+        }
+        var last_url = null;
+        
+        var fields_menu = $('.simplesearch').find('select');
+        function check_search_compatibility(event) {
+            if (last_url == null) {
+                return;
+            }
+            var u = get_url();
+            if (u != last_url) {
+                autoc.data('autocomplete').close();
+            }
+        }
+        fields_menu.change(check_search_compatibility);
+        
+        function get_url() {            
+            var v = fields_menu.find('option:selected').val();
+            var u = urls[ v ];
+            //console.log(last_url + ' / ' + u);
+            //console.trace();
+            if (!u) {
+                return urls['*'];
+            }
+            return u;
+        }
+        
+        function split(val) {
+          return val.split(/,\s*/);
+        }
+        function extractLast(term) {
+          return split(term).pop();
+        }
+        
+        var cache = {};
+        var autoc = $(".simplesearchfield").autocomplete({
+          
+          delay: 500,
+          minLength: 2,
+          
+          source: function(request, response) {
+            cid = last_url + request.term 
+            if ( cid in cache ) {
+                response( cache[ cid ] );
+                return;
+            }
+            function cache_response( data ) {
+                cache[ cid ] = data;
+                response( data );
+            }
+            last_url = get_url();
+            $.getJSON(last_url, {
+              term: extractLast(request.term),
+              data: request.data,
+            }, cache_response);
+          },
+          search: function() {
+            if (!get_url()) {
+                return false;
+            }
+            // custom minLength
+            var term = extractLast(this.value);
+            if (term.length < 2) {
+              return false;
+            }
+          },
+          focus: function() {
+            // prevent value inserted on focus
+            return false;
+          },
+          select: function(event, ui) {
+            var terms = split( this.value );
+            // remove the current input
+            terms.pop();
+            // add the selected item
+            terms.push( ui.item.value );
+            // add placeholder to get the comma-and-space at the end
+            terms.push("");
+            this.value = terms.join(", ");
+            return false;
+          },
+        });
+        
+        autoc.data('autocomplete')._renderItem = function( ul, item) {
+            var x = $( "<li></li>" )
+                .data( "item.autocomplete", item )
+                .append( '<a title="' + item.data + '">' + item.label + '<a class="show-more" title="Show related terms">more...</a></a>' )
+                .appendTo( ul );
+            $('<div class="menu_body"></div>')
+                .appendTo( ul );
+            return x;
+        }
+
+	});
+      </script>

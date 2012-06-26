@@ -1,0 +1,224 @@
+<project name="dumean">
+
+	<description>Java extensions for the dumean - different Java applications made python-friendly</description>
+
+ <!--
+  ==================================================================
+     Configuration section
+  ==================================================================
+  -->
+	<property file="build.properties" />
+
+	<property name="src.dir"     value="src/java"/>
+	<property name="build.dir"   value="build"/>
+	<property name="dist.dir"    value="build/dist"/>
+	<property name="classes.dir" value="bin"/>
+	<property name="jar.dir"     value="${build.dir}/jar"/>
+
+    <!-- these are now defined in the properties file
+	<property name="jcc"           value="jcc.__main__" />
+	<property name="gate.home"     value="/x/dev/workspace/gate"/>
+	<property name="python"        value="python"/>
+    //-->
+
+
+	<property name="lib.dir"       value="lib"/>
+	<property name="app.name"      value="dumeanj"/>
+	<property name="app.version"   value="0.1"/>
+	<property name="jar.dir"       value="${jar.dir}/${app.name}-${app.version}.jar"/>
+	<property name="jar.suffix"    value="${app.name}-${app.version}.jar"/>
+	<property name="ddash" value="--" />
+
+
+	<property name="my.main.class.lucene"  value="newseman.lucene.whisperer.LuceneWhisperer newseman.lucene.whisperer.IndexDictionary"/>
+	<property name="my.main.class"         value="${my.main.class.lucene}"/>
+
+	<!-- i tried doing this with packages only, but it didn't work for v2.9, so i am listing classes directly -->
+	<property name="my.lucene_build" value="java.lang.Float
+		newseman.lucene.whisperer.IndexDictionary
+		newseman.lucene.whisperer.SearchFiles
+		newseman.lucene.whisperer.LuceneWhisperer
+		"/>
+
+	<path id="classpath">
+		<fileset dir="${lib.dir}" includes="**/*.jar"/>
+		<fileset dir="${jar.dir}" includes="**/*.jar"/>
+	</path>
+
+ <!--
+  ==================================================================
+     Compilation section for jars
+  ==================================================================
+  -->
+	<target name="init" depends="check_properties,die_unless_propertiesOK">
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${dist.dir}"/>
+		<mkdir dir="${classes.dir}"/>
+		<mkdir dir="${build.dir}/jar"/>
+
+	</target>
+
+	<target name="check_properties">
+		<condition property="propertiesOK">
+			<and>
+				<isset property="python"/>
+				<isset property="jcc"/>
+			</and>
+        </condition>
+	</target>
+
+	<target name="die_unless_propertiesOK" unless="propertiesOK" >
+		<echo>The properties of the project are not set correctly. Copy "build.properties.default" --> "build.properties" and edit the new file if necessary.</echo>
+		<fail/>
+	</target>
+
+	<target name="config">
+		<property name="my.jar" value="${jar.dir}/${jar.suffix}" />
+		<property name="my.jar.standalone" value="${jar.dir}/standalone-${jar.suffix}" />
+		<property name="my.lucene.jar" value="${jar.dir}/lucene-${jar.suffix}" />
+		<property name="my.lucene.jar.standalone" value="${jar.dir}/lucene-standalone-${jar.suffix}" />
+		<property name="my.dumean.jar" value="${jar.dir}/${jar.suffix}" />
+	</target>
+
+	<target name="build-clean" depends="clean,init,jar-build-standalone"/>
+
+	<target name="clean" description="Deletes ${build.dir}">
+		<delete dir="${build.dir}/build"/>
+		<delete dir="${build.dir}/jar"/>
+		<delete dir="${build.dir}" failonerror="no"/>
+	</target>
+
+	<target name="compile" depends="init" description="Compiles all java classes from /src/java">
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" classpathref="${classpath}"/>
+	</target>
+
+
+
+
+	<!-- package everythin into a standalone/distribuable jar -->
+	<target name="jar-build-standalone"
+    description="Builds standalone jar library (with all dependencies inside)"
+    depends="jar-build,config"  >
+		<mkdir dir="${jar.dir}"/>
+		
+		<jar destfile="${my.jar.standalone}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Main-Class" value="${my.main.class}" />
+				<attribute name="Class-Path" value="." />
+			</manifest>
+			
+			<zipfileset excludes="META-INF/*.SF" src="${my.dumean.jar}" />
+	        <zipfileset excludes="META-INF/*.SF" src="${lib.dir}/lucene-core-3.1-SNAPSHOT.jar" />
+	        <zipfileset excludes="META-INF/*.SF" src="${lib.dir}/lucene-highlighter-3.1-SNAPSHOT.jar" />
+	        <zipfileset excludes="META-INF/*.SF" src="${lib.dir}/lucene-spellchecker-3.1-SNAPSHOT.jar" />
+	
+		</jar>
+	</target>
+
+	<target name="jar-build"
+	     description="Builds standalone jar library for dumean components"
+	     depends="compile,config" >
+	    <mkdir dir="${jar.dir}"/>
+	    <jar destfile="${my.dumean.jar}" filesetmanifest="mergewithoutmain">
+	      <manifest>
+	        <attribute name="Built-By" value="${user.name}" />
+	        <attribute name="Main-Class" value="${my.main.class.lucene}" />
+	        <attribute name="Class-Path" value="." />
+	      </manifest>
+	      <fileset dir="${classes.dir}" />
+	    </jar>
+	  </target>
+
+
+
+
+
+
+ <!--
+  ==================================================================
+     Python Eggs building routines
+  ==================================================================
+  -->
+	<target name="egg-build"  description="Compile standalone egg with all components included"
+      depends="config,jar-build,jar-build-standalone,egg-compilation">
+    </target>
+
+	<target name="egg-compilation"  description="Compile the standalone egg withouth building jars"
+		depends="config">
+		<mkdir dir="${build.dir}"/>
+		<delete dir="${build.dir}/build" failonerror="no"/>
+
+	  <exec executable="${python}" dir="${build.dir}" failonerror="true" >
+      <arg value="-m" />
+			<arg value="${jcc}" />
+			<arg value="${ddash}shared" />
+			<arg value="${ddash}import" />
+			<arg value="lucene" />
+			<!--<arg value="${ddash}no-generics" />-->
+			<arg line="${my.lucene_build}" />
+			<arg value="${ddash}python" />
+			<arg value="${app.name}" />
+			<!--
+			        If you want to build a package, which doesn't depend on existence of pylucene
+			        then comment out the import part above; and uncomment this part
+			        <arg value="${ddash}classpath" />
+			        <arg value="../${my.lucene.jar.standalone}${path.separator}../${my.gate.jar.standalone}${path.separator}../${my.dumean.jar}" />
+			        <arg value="${ddash}include" />
+			        <arg value="../${my.lucene.jar.standalone}" />
+			        -->
+	        <arg value="${ddash}classpath" />
+            <arg value="${toString:classpath}" />
+			<arg value="${ddash}classpath" />
+			<arg value="../${my.dumean.jar}" />
+	        <arg value="${ddash}include" />
+	        <arg value="../${my.jar.standalone}" />
+			<arg value="${ddash}bdist" />
+			<arg value="${ddash}build" />
+			<arg value="${ddash}version" />
+			<arg value="${app.version}" />
+		</exec>
+	</target>
+
+
+
+
+
+ <!--
+  ==================================================================
+     Testing Python Eggs
+  ==================================================================
+  -->
+	<target name="before-unzip" >
+		<delete dir="${build.dir}/EGG-INFO" failonerror="no" />
+
+	</target>
+
+	<target name="unzip-egg" depends="before-unzip" description="Unzip the egg into python-test to be loadable">
+		<delete dir="${dist.dir}/${app.name}" failonerror="yes"/>
+		<unzip dest="${dist.dir}" overwrite="yes">
+			<fileset dir="${dist.dir}">
+				<include name="*${app.name}*.egg"/>
+			</fileset>
+		</unzip>
+		<move file="${dist.dir}/EGG-INFO" tofile="${dist.dir}/${app.name}.egg-info"/>
+		<antcall target="test-egg" />
+	</target>
+
+
+
+
+	<target name="build-unpack" depends="jar-build,egg-build,unzip-egg"
+		description="Builds standalone complete egg and unpacks it inside build/dist"/>
+
+	<target name="test-egg"  description="Just a basic test to verify that our lucene package is correctly compiled"
+        depends="">
+        <exec executable="${python}" dir="${dist.dir}" failonerror="true"  >
+            <arg value="-c" />
+            <arg value="import ${app.name} as lp;lp.initVM('${path.separator}'+lp.CLASSPATH);assert lp.LuceneWhisperer is not None" />
+        </exec>
+    </target>
+
+
+
+</project>
